@@ -87,25 +87,22 @@ public class GameManager : Observer
         {
             ObserverManager.Instance.RemoveObserver(this);//observer register
         }
+
+        //if (Input.GetKeyDown(KeyCode.W))
+        //{
+        //    Notify_WinObservers();
+        //}
+
+        //if (Input.GetKeyDown(KeyCode.F))
+        //{
+        //    Notify_LoseObservers();
+        //}
+
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            MoneyUpdate(1000);
+        }
     }
-
-    //private void Update()
-    //{
-    //    if (Input.GetKeyDown(KeyCode.W))
-    //    {
-    //        Notify_WinObservers();
-    //    }
-
-    //    if (Input.GetKeyDown(KeyCode.F))
-    //    {
-    //        Notify_LoseObservers();
-    //    }
-
-    //    if (Input.GetKeyDown(KeyCode.Space))
-    //    {
-    //        MoneyUpdate(1000);
-    //    }
-    //}
     public void StartState()
     {
     }

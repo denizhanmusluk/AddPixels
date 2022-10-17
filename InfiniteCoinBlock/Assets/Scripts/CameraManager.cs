@@ -18,7 +18,7 @@ public class CameraManager : MonoBehaviour
     public void CameraPosSet(int currentBlockCount, int maxBlockCount)
     {
         float lerpValue = (float)currentBlockCount / (float)maxBlockCount;
-        transform.position = Vector3.Lerp(cameraFirstPoint.position, cameraLastPoint.position, lerpValue);
-        transform.rotation = Quaternion.Lerp(cameraFirstPoint.rotation, cameraLastPoint.rotation, lerpValue);
+        transform.position = Vector3.Lerp(cameraFirstPoint.position, cameraLastPoint.position, Mathf.Sqrt(lerpValue));
+        transform.rotation = Quaternion.Lerp(cameraFirstPoint.rotation, cameraLastPoint.rotation, Mathf.Sqrt(lerpValue));
     }
 }

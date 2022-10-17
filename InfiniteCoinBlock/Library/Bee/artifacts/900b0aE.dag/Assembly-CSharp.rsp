@@ -428,6 +428,7 @@
 "Assets/BaseProject/Scripts/LevelScriptable/LevelScriptable.cs"
 "Assets/Character/ClickerControl.cs"
 "Assets/Character/PlayerHealth.cs"
+"Assets/Collectables/Point/Scripts/Point.cs"
 "Assets/PNG_to_3D/Scripts/Builder.cs"
 "Assets/PNG_to_3D/Scripts/BuildSettings.cs"
 "Assets/PNG_to_3D/Scripts/GetPixelTextures.cs"

@@ -15,6 +15,8 @@ public class UpgradeSettings : ScriptableObject
     [SerializeField] private int[] brickCount;
     public int[] _brickCount { get { return brickCount; } }
 
+    [SerializeField] private int[] coinPerBrick;
+    public int[] _coinPerBrick { get { return coinPerBrick; } }
 
     [SerializeField] private int[] brickUpgradeCost;
     public int[] _brickUpgradeCost { get { return brickUpgradeCost; } }

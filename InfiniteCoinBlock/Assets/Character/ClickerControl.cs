@@ -14,7 +14,7 @@ public class ClickerControl : Observer
     public Brick brick;
     [SerializeField] public Animator anim;
     bool click = false;
-    float defaultAnimSpeed = 1f;
+   [SerializeField] float defaultAnimSpeed = 1f;
     //float clickAnimSpeed = 2f;
     float currentAnimSpeed;
     private void Awake()
@@ -109,7 +109,7 @@ public class ClickerControl : Observer
     }
     IEnumerator MultiHit()
     {
-        GameManager.Instance.MoneyUpdate(Globals.brickPerHit);
+        GameManager.Instance.MoneyUpdate(Globals.coinPerBrick);
 
         int counter = 0;
         while (counter<Globals.brickPerHit)

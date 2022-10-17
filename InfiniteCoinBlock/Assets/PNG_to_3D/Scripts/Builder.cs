@@ -7,6 +7,7 @@ public class Builder : Subject
 {
     BuildSettings buildSettings;
     [SerializeField] UpgradeSettings upgradeSettings;
+    [SerializeField] GameObject coinPoint;
     int brickSize;
     //GameObject brickPrefab;
     Texture2D textureMap;
@@ -189,12 +190,16 @@ public class Builder : Subject
                         Globals.buildActive = false;
                         Debug.Log("textureWidth / 2 - i  = " + (textureWidth / 2) + " : : " + i);
                         GameObject brick = Instantiate(upgradeSettings._brickPrefab[Globals.brickLevel], transform.position, Quaternion.identity, transform);
+
                         brick.transform.localScale *= brickSize * buildSettings._brickSizeRatio;
                         brick.transform.localPosition = new Vector3(brickDistance.x * (-i), brickDistance.y * y, 0);
                         brick.GetComponent<MeshRenderer>().material = material;
                         brick.GetComponent<MeshRenderer>().material.color = pixels[textureWidth / 2 - i - 1, y];
+
                         DoGetValueScale(brick.transform, true, 0.1f, 1, 0.5f, Ease.OutElastic);
                         SetRotBrick(brick.transform);
+
+                        Coin(brick.transform.position - new Vector3(0, 0, brick.transform.localScale.z * 2f), Globals.coinPerBrick);
                         yield return null;
                     }
                 }
@@ -224,12 +229,16 @@ public class Builder : Subject
                     Globals.buildActive = false;
 
                     GameObject brick = Instantiate(upgradeSettings._brickPrefab[Globals.brickLevel], transform.position, Quaternion.identity, transform);
+
                     brick.transform.localScale *= brickSize * buildSettings._brickSizeRatio;
                     brick.transform.localPosition = new Vector3(brickDistance.x * (x - textureWidth / 2 + 1), brickDistance.y * (j + 1), 0);
                     brick.GetComponent<MeshRenderer>().material = material;
                     brick.GetComponent<MeshRenderer>().material.color = pixels[x, (j + 1)];
+
                     DoGetValueScale(brick.transform, true, 0.1f, 1, 0.5f, Ease.OutElastic);
                     SetRotBrick(brick.transform);
+
+                    Coin(brick.transform.position - new Vector3(0, 0, brick.transform.localScale.z * 2f), Globals.coinPerBrick);
                     yield return null;
                 }
             }
@@ -250,12 +259,16 @@ public class Builder : Subject
                         Globals.buildActive = false;
 
                         GameObject brick = Instantiate(upgradeSettings._brickPrefab[Globals.brickLevel], transform.position, Quaternion.identity, transform);
+
                         brick.transform.localScale *= brickSize * buildSettings._brickSizeRatio;
                         brick.transform.localPosition = new Vector3(brickDistance.x * (i + 1), brickDistance.y * y, 0);
                         brick.GetComponent<MeshRenderer>().material = material;
                         brick.GetComponent<MeshRenderer>().material.color = pixels[textureWidth / 2 + i, y];
+
                         DoGetValueScale(brick.transform, true, 0.1f, 1, 0.5f, Ease.OutElastic);
                         SetRotBrick(brick.transform);
+
+                        Coin(brick.transform.position - new Vector3(0, 0, brick.transform.localScale.z * 2f), Globals.coinPerBrick);
                         yield return null;
                     }
                 }
@@ -264,6 +277,11 @@ public class Builder : Subject
             j++;
         }
         CompleteBuild();
+    }
+    void Coin(Vector3 instPos, int Coin)
+    {
+        var point = Instantiate(coinPoint, instPos, Quaternion.identity);
+        point.GetComponent<Point>().PointText.text = "$"+Coin.ToString();
     }
     //IEnumerator Building(Color[,] pixels, int textureWidth, int textureHeight)
     //{

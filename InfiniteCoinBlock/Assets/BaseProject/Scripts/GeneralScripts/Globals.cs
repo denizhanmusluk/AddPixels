@@ -10,7 +10,7 @@ public static class Globals
 
     public static bool buildActive = false;
 
-
+    public static int coinPerBrick = 1; // Upgradeable
     public static int brickPerHit = 1; // Upgradeable
     public static float coolDownSpeed = 10; // Upgradeable
     public static float healthDownSpeed = 10; // Upgradeable
