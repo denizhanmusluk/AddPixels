@@ -112,7 +112,7 @@ public class ClickerControl : Observer
     }
     IEnumerator MultiHit()
     {
-        GameManager.Instance.MoneyUpdate(Globals.coinPerBrick);
+        GameManager.Instance.MoneyUpdate(Globals.brickPerHit * Globals.coinPerBrick);
 
         int counter = 0;
         while (counter<Globals.brickPerHit)
