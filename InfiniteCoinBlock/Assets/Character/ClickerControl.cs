@@ -10,7 +10,7 @@ public class ClickerControl : Observer
     public static ClickerControl Instance => _instance;
 
     PlayerHealth _playerHealth;
-    [SerializeField] public Builder _builder;
+    public Builder _builder;
     public Brick brick;
     [SerializeField] public Animator anim;
     bool click = false;
@@ -26,7 +26,8 @@ public class ClickerControl : Observer
         _playerHealth = GetComponent<PlayerHealth>();
         //staminaSlider
         currentAnimSpeed = defaultAnimSpeed;
-        anim.speed = currentAnimSpeed;
+        anim.SetFloat("JumpSpeed", currentAnimSpeed);
+
         ObserverManager.Instance.RegisterObserver(this, SubjectType.GameState);
     }
 
@@ -82,7 +83,7 @@ public class ClickerControl : Observer
         click = false;
         yield return null;
         currentAnimSpeed = Globals.clickAnimSpeed;
-        anim.speed = currentAnimSpeed;
+        anim.SetFloat("JumpSpeed", currentAnimSpeed);
 
         _playerHealth.HealthDownStart();
 
@@ -97,7 +98,7 @@ public class ClickerControl : Observer
         if (click)
         {
             currentAnimSpeed = defaultAnimSpeed;
-            anim.speed = currentAnimSpeed;
+            anim.SetFloat("JumpSpeed", currentAnimSpeed);
             _playerHealth.CoolDownStart();
         }
     }

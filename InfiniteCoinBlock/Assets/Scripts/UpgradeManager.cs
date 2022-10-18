@@ -2,17 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using TMPro;
 public class UpgradeManager : MonoBehaviour
 {
     private static UpgradeManager _instance = null;
     public static UpgradeManager Instance => _instance;
     [SerializeField] Transform brickParent;
     [SerializeField] public GameObject upgradePanel;
-    [SerializeField] UpgradeSettings upgradeSettings;
+    UpgradeSettings upgradeSettings;
     [SerializeField] UpgradeButton brickUpgradeButton;
     [SerializeField] UpgradeButton staminaUpgradeButton;
     [SerializeField] UpgradeButton clickAnimUpgradeButton;
+    [SerializeField] TextMeshProUGUI brickMoneyText;
+    [SerializeField] Transform brickUpgradeImageParent;
     //int brickUpgrade_Level;
     //int staminaUpgrade_Level;
     private void Awake()
@@ -23,14 +25,16 @@ public class UpgradeManager : MonoBehaviour
         Globals.brickLevel = PlayerPrefs.GetInt("BrickUpgradeLevel");
         Globals.staminaLevel = PlayerPrefs.GetInt("StaminaUpgradeLevel");
         Globals.clickAnimLevel = PlayerPrefs.GetInt("ClickAnimLevel");
-        Init();
+        
     }
     private void Start()
     {
+        Init();
         isEnoughMoney();
     }
     void Init()
     {
+        upgradeSettings = LevelManager.Instance.upgradeSettings[PlayerPrefs.GetInt("level")];
         Globals.brickPerHit = upgradeSettings._brickCount[Globals.brickLevel];
         Globals.coinPerBrick = upgradeSettings._coinPerBrick[Globals.brickLevel];
         Globals.healthDownSpeed = upgradeSettings._healthDownPerSeconds[Globals.staminaLevel];
@@ -60,6 +64,8 @@ public class UpgradeManager : MonoBehaviour
         {
             clickAnimUpgradeButton.TextInitFull();
         }
+        brickMoneyText.text = "$" + (Globals.brickPerHit * Globals.coinPerBrick).ToString() + " / hit";
+        MultiplierImageSet();
     }
     public void BrickUpgradeButton()
     {
@@ -139,6 +145,21 @@ public class UpgradeManager : MonoBehaviour
         }
         GameObject _brick = Instantiate(upgradeSettings._brickBoxPrefab[Globals.brickLevel], transform.position, Quaternion.identity, brickParent);
         _brick.transform.localPosition = new Vector3(0, 10, 0);
-        _brick.transform.localScale = new Vector3(21, 21, 21);
+        _brick.transform.localScale = new Vector3(2000, 2000, 2000);
+    }
+    void MultiplierImageSet()
+    {
+        for(int i = 0; i < brickUpgradeImageParent.childCount; i++)
+        {
+            brickUpgradeImageParent.GetChild(i).gameObject.SetActive(false);
+        }
+        if (Globals.brickLevel < brickUpgradeImageParent.childCount)
+        {
+            brickUpgradeImageParent.GetChild(Globals.brickLevel).gameObject.SetActive(true);
+        }
+        else
+        {
+            brickUpgradeImageParent.GetChild(brickUpgradeImageParent.childCount - 1).gameObject.SetActive(true);
+        }
     }
 }

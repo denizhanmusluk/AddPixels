@@ -98,6 +98,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brickTR: {fileID: 1365477146135273136}
+  brickValueText: {fileID: 7119410944866361471}
+  hitParticle: {fileID: 123268, guid: 9a1f3d2ea8ef0464dbc85d0e8d01b397, type: 3}
 --- !u!1001 &1505830830846707936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -204,3 +206,14 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2556748977526296679, guid: 5c03390812848b3418b34590d06ad8ed, type: 3}
   m_PrefabInstance: {fileID: 1505830830846707936}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7119410944866361471 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8514322969143191711, guid: 5c03390812848b3418b34590d06ad8ed, type: 3}
+  m_PrefabInstance: {fileID: 1505830830846707936}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

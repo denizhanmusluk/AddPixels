@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
 	ClickerControl _clickerControl;
+	[SerializeField] SkinnedMeshRenderer characterMesh;
 	[SerializeField] Slider staminaSlider;
 	[SerializeField] Image sliderImage;
 	[SerializeField] float maxHealth;
@@ -17,12 +18,20 @@ public class PlayerHealth : MonoBehaviour
 	[SerializeField] float coolDownSpeed = 10;// Upgradeable
 	//[SerializeField] float healthDownSpeed = 10;// Upgradeable
 	public bool fallActive = false;
-
-	private void Start()
+	Material characterMaterial;
+	float shaderHeight;
+    private void Awake()
+    {
+		characterMaterial = characterMesh.material;
+	}
+    private void Start()
     {
 		_clickerControl = GetComponent<ClickerControl>();
 		currentHealth = maxHealth;
 		CoolDownStart();
+
+		ShaderSet();
+
 	}
 	public void CoolDownStart()
     {
@@ -42,6 +51,10 @@ public class PlayerHealth : MonoBehaviour
 			counter += _cooldownSpeed * Time.deltaTime;
 			currentHealth = counter;
 			staminaSlider.value = currentHealth / maxHealth;
+
+			ShaderSet();
+
+
 			if (staminaSlider.value > 0.5f)
 			{
 				sliderImage.color = Color.Lerp(middleHealthColor, maxHealthColor, 2 * staminaSlider.value - 1  );
@@ -63,6 +76,9 @@ public class PlayerHealth : MonoBehaviour
 			counter -= _healthDownSpeed * Time.deltaTime;
 			currentHealth = counter;
 			staminaSlider.value = currentHealth / maxHealth;
+
+			ShaderSet();
+
 			if (staminaSlider.value > 0.5f)
 			{
 				sliderImage.color = Color.Lerp(middleHealthColor, maxHealthColor, 2 * staminaSlider.value - 1);
@@ -87,5 +103,10 @@ public class PlayerHealth : MonoBehaviour
 		fallActive = false;
 		_clickerControl.anim.SetTrigger("Jump");
 		CoolDownStart();
+	}
+	void ShaderSet()
+    {
+		shaderHeight = currentHealth / maxHealth;
+		characterMaterial.SetFloat("_Height", 50 * shaderHeight);
 	}
 }

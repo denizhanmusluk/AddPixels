@@ -1,0 +1,477 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 5996 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+61084
+Successfully changed project path to: C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock
+C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 216.25 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3965 MB
+    Driver:   30.0.15.1236
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004418 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 126.70 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.662 seconds
+Domain Reload Profiling:
+	ReloadAssembly (663ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (497ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (84ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (345ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (127ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008267 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 120.76 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.587 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1587ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (133ms)
+		EndReloadAssembly (1236ms)
+			LoadAssemblies (192ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (711ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (388ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5505 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (7.1 MB). Loaded Objects now: 5951.
+Memory consumption went from 285.2 MB to 278.1 MB.
+Total: 6.048800 ms (FindLiveObjects: 0.481000 ms CreateObjectMapping: 0.212300 ms MarkObjects: 3.146400 ms  DeleteObjects: 2.207100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005888 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.60 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.396 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1397ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1113ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (355ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (537ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (284ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.30 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5326 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (7.1 MB). Loaded Objects now: 5954.
+Memory consumption went from 270.3 MB to 263.2 MB.
+Total: 5.448000 ms (FindLiveObjects: 0.491600 ms CreateObjectMapping: 0.155500 ms MarkObjects: 2.961300 ms  DeleteObjects: 1.838200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 598296.179589 seconds.
+  path: Assets/UI/tuglaUI/2 1.png
+  artifactKey: Guid(d7a859612d90ff64cae9ee8a46fc62f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/2 1.png using Guid(d7a859612d90ff64cae9ee8a46fc62f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81601c510fd7519fd7eb017259a7762d') in 0.213003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/UI/tuglaUI/para1 1.png
+  artifactKey: Guid(d54823fa7fbb53148991d042ead37d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/para1 1.png using Guid(d54823fa7fbb53148991d042ead37d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc6020ad83bf09c8e86e9400702ee05') in 0.016749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/UI/tuglaUI/jumpgri 1.png
+  artifactKey: Guid(7b8bf776964bbc641b6ba383bd3718e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/jumpgri 1.png using Guid(7b8bf776964bbc641b6ba383bd3718e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7013891b6a1270fd86b7fa51edd981dd') in 0.021109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/UI/tuglaUI/beyaz2 1.png
+  artifactKey: Guid(6551e9ca19b78df40ab6f9dd50c913e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/beyaz2 1.png using Guid(6551e9ca19b78df40ab6f9dd50c913e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84340cfd0506caf58b6b18b12ab264b9') in 0.024486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UI/tuglaUI/beyaz1 1.png
+  artifactKey: Guid(465b09c0e2ee33d42aedac8c9e857713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/beyaz1 1.png using Guid(465b09c0e2ee33d42aedac8c9e857713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9050ce8b8fad82e40a3a2d6b3117ac6d') in 0.023547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/UI/tuglaUI/beyaz5 1.png
+  artifactKey: Guid(dc520a3330ad94b479a3583edd989c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/beyaz5 1.png using Guid(dc520a3330ad94b479a3583edd989c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327c6495a31d97f32c181989938dfd53') in 0.024567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/UI/tuglaUI/baryesil 1.png
+  artifactKey: Guid(b61f08fca129ad64c8d4b378780f0de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/baryesil 1.png using Guid(b61f08fca129ad64c8d4b378780f0de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdffe32763c1e552ae47e970cca1a38') in 0.023674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UI/tuglaUI/4 1.png
+  artifactKey: Guid(9b24d2c7690de43409e51a7378e3abe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/4 1.png using Guid(9b24d2c7690de43409e51a7378e3abe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3621bed9ed010d8150d3af04f428d3') in 0.023312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/UI/tuglaUI/jumpspeed 1.png
+  artifactKey: Guid(825a26b44ecac9b46a56daffcf3e65df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/jumpspeed 1.png using Guid(825a26b44ecac9b46a56daffcf3e65df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1eb098941ea4630b1e8ffa0ccbeeaf2') in 0.022024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/UI/tuglaUI/jump1 1.png
+  artifactKey: Guid(9ef6e2424cae9e245b71973f3f8c2044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/jump1 1.png using Guid(9ef6e2424cae9e245b71973f3f8c2044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e739eec0941753597a91e748c08a3c') in 0.019845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/UI/tuglaUI/barbeyaz 1.png
+  artifactKey: Guid(72f866c0459cf034aa7743a521bd87d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/barbeyaz 1.png using Guid(72f866c0459cf034aa7743a521bd87d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5957544d2ec8820352f38c868f5a8e2a') in 0.018248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/UI/tuglaUI/para 1.png
+  artifactKey: Guid(45be1f28e087fe346b0501ba7128622b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/para 1.png using Guid(45be1f28e087fe346b0501ba7128622b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9829c12ef8b7b7a8dbed8d48ed1b23da') in 0.019582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.709242 seconds.
+  path: Assets/UI/tuglaUI/3.png
+  artifactKey: Guid(82569fd31a3dd994abe065ddca4ffb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/3.png using Guid(82569fd31a3dd994abe065ddca4ffb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ff0ecc3bce7ad34e805ccb6d70f43b') in 0.071611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/UI/tuglaUI/multigri.png
+  artifactKey: Guid(833a9123f520b3c4284d1a5a24e8e5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/multigri.png using Guid(833a9123f520b3c4284d1a5a24e8e5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0a66c065452b72ea33060becac31fe') in 0.040731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/UI/tuglaUI/para.png
+  artifactKey: Guid(57ea8ec08dba2664aba8ae80bfed5dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/para.png using Guid(57ea8ec08dba2664aba8ae80bfed5dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc48db153c721be86eafe28342076bc') in 0.038061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/UI/tuglaUI/stamina1.png
+  artifactKey: Guid(61bc86942c21f424da5624a44ffe0a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/stamina1.png using Guid(61bc86942c21f424da5624a44ffe0a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60df5b4c023db1953bde99e0d4215a7e') in 0.032455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/UI/tuglaUI/turncubar.png
+  artifactKey: Guid(fcccbde32c5d4c74a98328a00364ff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/turncubar.png using Guid(fcccbde32c5d4c74a98328a00364ff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b42fbb5a13894e82a6425d1990b398') in 0.032621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/UI/tuglaUI/status_bg.png
+  artifactKey: Guid(9b3c70d501f52554192538ebcc8d51d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/status_bg.png using Guid(9b3c70d501f52554192538ebcc8d51d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4a41e9a1adf4d12cf8a59601e14c02') in 0.031266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/UI/tuglaUI/beyaz1.png
+  artifactKey: Guid(b412d923725c55541baf9f518ba01c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/beyaz1.png using Guid(b412d923725c55541baf9f518ba01c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d6face1f5f675315144dbf85dee621') in 0.031627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/UI/tuglaUI/beyaz5.png
+  artifactKey: Guid(804bdcf2ad949bf44987307b360e03c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/beyaz5.png using Guid(804bdcf2ad949bf44987307b360e03c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ad945ec23e6d64b1a9c7e6b7337e3c') in 0.023510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/UI/tuglaUI/beyaz4.png
+  artifactKey: Guid(439532a3648212f4a86158926fe77b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/beyaz4.png using Guid(439532a3648212f4a86158926fe77b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbedc77c68019be753573fb0dfd3031') in 0.024858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/UI/tuglaUI/staminagri.png
+  artifactKey: Guid(44597ae94153c3c45be611a8b4f5c9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/staminagri.png using Guid(44597ae94153c3c45be611a8b4f5c9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7bdfa8d1bb018621c185aaaccf70c3') in 0.034536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UI/tuglaUI/turuncubar2.png
+  artifactKey: Guid(4dbd377ff5cbe734eb1045fdcd7fc8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/turuncubar2.png using Guid(4dbd377ff5cbe734eb1045fdcd7fc8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6b77a7403e4bcbad8b260820f87215') in 0.030847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 320.899574 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 32 SDF.asset
+  artifactKey: Guid(9a2157e1f9c4c4d38841fbb92558f587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 32 SDF.asset using Guid(9a2157e1f9c4c4d38841fbb92558f587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a75611c7439460ea5641963c902172e') in 0.165988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_64 SDF.asset
+  artifactKey: Guid(4995422ffdb954b70a642f73eb1442ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_64 SDF.asset using Guid(4995422ffdb954b70a642f73eb1442ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c65bca73cf1a3036e5756db2e66747') in 0.070290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 210 SDF.asset
+  artifactKey: Guid(e21d9fa883341484f8393b51730ca170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 210 SDF.asset using Guid(e21d9fa883341484f8393b51730ca170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8988dce1f9a08007449b4b8c600d9bd1') in 0.154441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_40 SDF Atlas.png
+  artifactKey: Guid(b69bbc81e50d34f86a06fa187435ee02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_40 SDF Atlas.png using Guid(b69bbc81e50d34f86a06fa187435ee02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691e55a763ae1d3eaf13c63c80d44e35') in 0.071388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_72 SDF Atlas.png
+  artifactKey: Guid(be2c5d62ca95142e3b9dc4d4a638b2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_72 SDF Atlas.png using Guid(be2c5d62ca95142e3b9dc4d4a638b2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a052efccb05c423a854afa7d9a73cc') in 0.168974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_50 SDF.asset
+  artifactKey: Guid(ad5569965d2734880a004e3e3d7d1358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_50 SDF.asset using Guid(ad5569965d2734880a004e3e3d7d1358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de8e86344ee679db590cb64700810c3') in 0.049785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_40 SDF.asset
+  artifactKey: Guid(9844632d790894e85a0b85fdefbfe1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_40 SDF.asset using Guid(9844632d790894e85a0b85fdefbfe1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922b25088c21b862cf76daf83bda5958') in 0.048607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_50 SDF Atlas.png
+  artifactKey: Guid(b549307935a4b424aa346ab218ec8f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_50 SDF Atlas.png using Guid(b549307935a4b424aa346ab218ec8f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91eef180697c1557f67b80c19b50ce3') in 0.066572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 64 SDF Atlas.png
+  artifactKey: Guid(542168a59ebb940cc91d3c3ec1325445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 64 SDF Atlas.png using Guid(542168a59ebb940cc91d3c3ec1325445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccf7d3d71d19a7d2f0d37ca4fcfacb9') in 0.074831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 54 SDF Atlas.png
+  artifactKey: Guid(35891abd43bca4b8dbaff570b5c0c53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 54 SDF Atlas.png using Guid(35891abd43bca4b8dbaff570b5c0c53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de836961c87f5cdd3dbb55e584141f9') in 0.072556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 72 SDF.asset
+  artifactKey: Guid(b741db7ac3d1c423aad5b49a9780ca2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 72 SDF.asset using Guid(b741db7ac3d1c423aad5b49a9780ca2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a2d0dd7115f9b3a84b07d235136b8b') in 0.044955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 40 SDF Atlas.png
+  artifactKey: Guid(aa9fdc7ac23d342798922793111065d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 40 SDF Atlas.png using Guid(aa9fdc7ac23d342798922793111065d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d4b8e3e8b96567e46e5a73d4539c41') in 0.052514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 72 SDF Atlas.png
+  artifactKey: Guid(3b98b1d4d020f485d839d46f3d718b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 72 SDF Atlas.png using Guid(3b98b1d4d020f485d839d46f3d718b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faaae78a6df75bed9be2cc5bc656ac0e') in 0.073493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_72 SDF.asset
+  artifactKey: Guid(6ecbe1defc55a463ba1172f67f84844b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_72 SDF.asset using Guid(6ecbe1defc55a463ba1172f67f84844b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f1c0e0fa39afb331014ac2ad685e72') in 0.071945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_32 SDF Atlas.png
+  artifactKey: Guid(4b1d1d44f277248ae92feb4eb833a4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_32 SDF Atlas.png using Guid(4b1d1d44f277248ae92feb4eb833a4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2145187a0bfdc9e514fce7fd7bc64a') in 0.049036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 54 SDF.asset
+  artifactKey: Guid(605433b68313d491a8ab88bc03a41651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 54 SDF.asset using Guid(605433b68313d491a8ab88bc03a41651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96863cefb4d0da049e3258a68380e855') in 0.061791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_120 SDF.asset
+  artifactKey: Guid(8d34560b6d49c4469b2174ccd34ae34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline_Extended ASCII_120 SDF.asset using Guid(8d34560b6d49c4469b2174ccd34ae34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbaf532fe03a587776e9889b0412964') in 0.062341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.451630 seconds.
+  path: Assets/BaseProject/Fonts/LilitaOne-Regular Outline_Extended ASCII_32 SDF 1.asset
+  artifactKey: Guid(13ff60329868a7344a98b4b0e0e0ab5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/Fonts/LilitaOne-Regular Outline_Extended ASCII_32 SDF 1.asset using Guid(13ff60329868a7344a98b4b0e0e0ab5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16104c1d84d91f5fdda341edfd686bb6') in 0.033300 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

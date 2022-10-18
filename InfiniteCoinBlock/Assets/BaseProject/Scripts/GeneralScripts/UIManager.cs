@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using System;
 using TMPro;
 using DG.Tweening;
@@ -20,6 +21,7 @@ public class UIManager : Subject
     //[Header("In Game")]
     //public LevelBarDisplay levelBarDisplay;
     public TextMeshProUGUI inGameScoreText;
+    public Image moneyIcon;
     //[Header("Finish Screen")]
     //public ScoreTextManager scoreText;
     
@@ -121,11 +123,11 @@ public class UIManager : Subject
 
     IEnumerator setVal(int amount, float oldAmount)
     {
-        DoGetValueScale(inGameScoreText.transform, true, 0.75f, 1, 0.5f, Ease.OutElastic);
+        DoGetValueScale(moneyIcon.transform, true, 0.75f, 1, 0.5f, Ease.OutElastic);
         float counter = 0f;
         while (counter < 1f)
         {
-            counter += 4 * Time.deltaTime;
+            counter += 8 * Time.deltaTime;
             float money = Mathf.Lerp(oldAmount, (float)Globals.moneyAmount, counter);
             inGameScoreText.text = ((int)money).ToString();
 
@@ -143,5 +145,9 @@ public class UIManager : Subject
                 tr.localScale = Vector3.one * value;
             });
         return tween;
+    }
+    public void WinLevel()
+    {
+        Notify(NotificationType.Win);
     }
 }

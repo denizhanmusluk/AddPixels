@@ -121,10 +121,16 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:TCP2_UNIVERSAL_RP
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/BaseProject/Plugins/Demigiant/DOTween/DOTween.dll"
 -r:"Assets/BaseProject/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll"
+-r:"C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock/Library/PackageCache/com.unity.burst@1.7.3/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+-r:"C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock/Library/PackageCache/com.unity.burst@1.7.3/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+-r:"C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock/Library/PackageCache/com.unity.burst@1.7.3/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+-r:"C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock/Library/PackageCache/com.unity.burst@1.7.3/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+-r:"C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock/Library/PackageCache/com.unity.burst@1.7.3/Unity.Burst.Unsafe.dll"
 -r:"C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock/Library/PackageCache/com.unity.collab-proxy@1.17.1/Lib/Editor/PlasticSCM/log4netPlastic.dll"
 -r:"C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock/Library/PackageCache/com.unity.collab-proxy@1.17.1/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
 -r:"C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock/Library/PackageCache/com.unity.collab-proxy@1.17.1/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
@@ -343,6 +349,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"Library/Bee/artifacts/900b0aE.dag/Unity.RenderPipelines.Universal.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/BaseProject/JMO Assets/Toony Colors Pro/Scripts/TCP2_CameraDepth.cs"

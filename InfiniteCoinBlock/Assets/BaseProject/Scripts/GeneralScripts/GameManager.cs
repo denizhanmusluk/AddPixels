@@ -146,7 +146,7 @@ public class GameManager : Observer
                 break;
             case NotificationType.Win:
                 {
-                    Invoke("WinState", 1);
+                    Invoke("WinState", 2);
                     Debug.Log("win");
                 }
                 break;

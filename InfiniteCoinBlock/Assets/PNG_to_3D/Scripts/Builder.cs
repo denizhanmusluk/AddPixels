@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using ObserverSystem;
-public class Builder : Subject
+public class Builder : MonoBehaviour
 {
     BuildSettings buildSettings;
-    [SerializeField] UpgradeSettings upgradeSettings;
+    UpgradeSettings upgradeSettings;
     [SerializeField] GameObject coinPoint;
+    [SerializeField] GameObject finishParticle;
     int brickSize;
     //GameObject brickPrefab;
     Texture2D textureMap;
@@ -25,19 +26,21 @@ public class Builder : Subject
     CameraManager cameraManager;
     private void Awake()
     {
-        
+        finishParticle.SetActive(false);
     }
     void Initialize()
     {
         buildSettings = LevelManager.Instance.levelBuildSettings[PlayerPrefs.GetInt("level")];
+        upgradeSettings = LevelManager.Instance.upgradeSettings[PlayerPrefs.GetInt("level")];
         brickSize = buildSettings._brickSize;
         brickDistance = upgradeSettings._brickPrefab[Globals.brickLevel].transform.localScale * brickSize;
         textureMap = buildSettings._textureMap;
         _readPixelStep = buildSettings._pixelStep;
         material = buildSettings._material;
     }
-    public override void SpesificStart()
+    private void Start()
     {
+        ClickerControl.Instance._builder = this;
         cameraManager = CameraManager.Instance;
         Initialize();
         ClickerControl.Instance._builder = this;
@@ -188,7 +191,6 @@ public class Builder : Subject
                             yield return null;
                         }
                         Globals.buildActive = false;
-                        Debug.Log("textureWidth / 2 - i  = " + (textureWidth / 2) + " : : " + i);
                         GameObject brick = Instantiate(upgradeSettings._brickPrefab[Globals.brickLevel], transform.position, Quaternion.identity, transform);
 
                         brick.transform.localScale *= brickSize * buildSettings._brickSizeRatio;
@@ -200,7 +202,7 @@ public class Builder : Subject
                         SetRotBrick(brick.transform);
 
                         Coin(brick.transform.position - new Vector3(0, 0, brick.transform.localScale.z * 2f), Globals.coinPerBrick);
-                        yield return null;
+                        yield return new WaitForSeconds(0.005f);
                     }
                 }
             }
@@ -214,7 +216,6 @@ public class Builder : Subject
             }
             for (int x = textureWidth / 2 - ii - 1; x < textureWidth / 2 + ii + 1; x++)
             {
-                Debug.Log("textureWidth / 2 - i  x= " + (textureWidth / 2) + " : : " + i + "  " + x);
 
                 if (pixels[x, j + 1].a > 0.5f)
                 {
@@ -239,7 +240,7 @@ public class Builder : Subject
                     SetRotBrick(brick.transform);
 
                     Coin(brick.transform.position - new Vector3(0, 0, brick.transform.localScale.z * 2f), Globals.coinPerBrick);
-                    yield return null;
+                    yield return new WaitForSeconds(0.005f);
                 }
             }
             if (i < textureWidth / 2)
@@ -269,7 +270,7 @@ public class Builder : Subject
                         SetRotBrick(brick.transform);
 
                         Coin(brick.transform.position - new Vector3(0, 0, brick.transform.localScale.z * 2f), Globals.coinPerBrick);
-                        yield return null;
+                        yield return new WaitForSeconds(0.005f);
                     }
                 }
                 i++;
@@ -317,10 +318,10 @@ public class Builder : Subject
 
     void CompleteBuild()
     {
-        Notify(NotificationType.Win);
+        GameManager.Instance.ui.WinLevel();
         PlayerPrefs.SetInt("BuildHeight", 0);
         PlayerPrefs.SetInt("BuildWidth", 0);
-
+        finishParticle.SetActive(true);
     }
     public Tween DoGetValueScale(Transform tr, bool active, float value, float lastValue, float duration, DG.Tweening.Ease type)
     {

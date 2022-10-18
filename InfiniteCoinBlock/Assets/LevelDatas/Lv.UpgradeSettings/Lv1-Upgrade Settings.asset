@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 636b0873982aa0b41b126064ae5ba78c, type: 3}
+  m_Name: Lv1-Upgrade Settings
+  m_EditorClassIdentifier: 
+  brickBoxPrefab:
+  - {fileID: 1097930357853465366, guid: 31de739b60dbd404992809d7d7a2b8f9, type: 3}
+  - {fileID: 1097930357853465366, guid: 8732f483e3e59b3439d05c97014b9d5c, type: 3}
+  - {fileID: 1097930357853465366, guid: 109da3fc35af53c48912fa0c8af52727, type: 3}
+  - {fileID: 1097930357853465366, guid: e212648c539d6d249a05fd9ac2184ed5, type: 3}
+  - {fileID: 1097930357853465366, guid: 21b3cb641347b1540a85500aff47748c, type: 3}
+  brickPrefab:
+  - {fileID: 1365477146135273149, guid: aa0b125f1944f7f4ebf1ca8da8cccde5, type: 3}
+  - {fileID: 1365477146135273149, guid: 4b06c90d72567d345a5bbfe314fffd4c, type: 3}
+  - {fileID: 1365477146135273149, guid: 17ed6b0276065d74e94eecce3627fe06, type: 3}
+  - {fileID: 1365477146135273149, guid: f65d20c285c22614d8ce26b386b20883, type: 3}
+  - {fileID: 1365477146135273149, guid: dc107a5e61f50af4e912ef9d96ae8647, type: 3}
+  brickCount: 0100000002000000030000000400000005000000
+  coinPerBrick: 01000000050000000a0000001400000028000000
+  brickUpgradeCost: 00000000190000003200000064000000c8000000
+  healthDownPerSeconds: 14000000100000000c0000000800000004000000
+  coolDownPerSeconds: 0a0000000a0000000a0000000a0000000a000000
+  staminaUpgradeCost: 00000000140000002800000050000000a0000000
+  clickAnimSpeed:
+  - 0.8
+  - 1.2
+  - 1.6
+  - 2
+  - 2.5
+  clickAnimUpgradeCost: 0000000014000000280000003c00000050000000

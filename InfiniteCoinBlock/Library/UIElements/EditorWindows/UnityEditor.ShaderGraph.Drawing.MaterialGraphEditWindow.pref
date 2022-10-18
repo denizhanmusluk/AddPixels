@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12386, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Keys:
+  - __PanelContainer__rootVisualContainer__e3bd3de58ff077b4ebffc7dffb988851__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__e3bd3de58ff077b4ebffc7dffb988851__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__02dd98e20ec93ac43817953300ea7626__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__02dd98e20ec93ac43817953300ea7626__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  m_Values:
+  - '{}'
+  - '{}'
+  - '{"position":{"x":1066.0,"y":222.0,"z":0.0},"scale":{"x":0.8891012072563171,"y":0.8891012072563171,"z":1.0}}'
+  - '{"m_Version":178,"m_SelectedElementsArray":["09d157a8-e7ce-49f9-b249-ca9007f8faa4","bf2739c9-17a0-4e83-87b5-1758bd13b435","dd9e0958-4ff9-4586-b393-bbc42925528a"]}'

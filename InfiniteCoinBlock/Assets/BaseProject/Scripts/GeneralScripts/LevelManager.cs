@@ -10,8 +10,9 @@ public class LevelManager : MonoBehaviour
 
     public GameObject loadedLevel;
 
-    //[SerializeField] private List<LevelScriptable> level_set;
+    [SerializeField] private List<LevelScriptable> level_set;
     [SerializeField] public List<BuildSettings> levelBuildSettings;
+    [SerializeField] public List<UpgradeSettings> upgradeSettings;
 
     //[SerializeField] List<GameObject> levels;
     //[SerializeField] public int LevelCount;
@@ -49,7 +50,7 @@ public class LevelManager : MonoBehaviour
         }
 
         ////////LevelsPrefab = (GameObject)Instantiate(Resources.Load("Level" + Globals.currentLevelIndex.ToString()));
-        //loadedLevel = Instantiate(level_set[Globals.currentLevelIndex]._levelPrefab, transform.position, Quaternion.identity);
+        loadedLevel = Instantiate(level_set[Globals.currentLevelIndex]._levelPrefab, transform.position, Quaternion.identity);
 
         Debug.Log("level " + Globals.currentLevel);
         Debug.Log("LEVEL " + PlayerPrefs.GetInt("levelIndex"));
