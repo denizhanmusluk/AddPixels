@@ -15,7 +15,7 @@ C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61084
+62558
 Successfully changed project path to: C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock
 C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 188.45 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 127.59 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,97 +63,97 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009331 seconds.
+Registered in 0.007067 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 177.34 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 119.56 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.969 seconds
+- Completed reload, in  0.703 seconds
 Domain Reload Profiling:
-	ReloadAssembly (970ms)
-		BeginReloadAssembly (181ms)
+	ReloadAssembly (704ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (650ms)
-			LoadAssemblies (176ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (118ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (483ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (97ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (436ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (315ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (84ms)
+				InitializePlatformSupportModulesInManaged (62ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (177ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (123ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.023707 seconds.
+Registered in 0.428744 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 143.85 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 164.62 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.112 seconds
+- Completed reload, in  1.916 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2113ms)
-		BeginReloadAssembly (297ms)
+	ReloadAssembly (1917ms)
+		BeginReloadAssembly (302ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (141ms)
-		EndReloadAssembly (1695ms)
-			LoadAssemblies (286ms)
+			CreateAndSetChildDomain (124ms)
+		EndReloadAssembly (1487ms)
+			LoadAssemblies (277ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (422ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (916ms)
+			SetupTypeCache (290ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (874ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
+				InitializePlatformSupportModulesInManaged (23ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (144ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (511ms)
-				ProcessInitializeOnLoadMethodAttributes (107ms)
+				RefreshPlugins (165ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (482ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 2.11 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.88 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5505 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 58 unused Assets / (7.1 MB). Loaded Objects now: 5951.
-Memory consumption went from 285.2 MB to 278.1 MB.
-Total: 14.662000 ms (FindLiveObjects: 0.606300 ms CreateObjectMapping: 0.204500 ms MarkObjects: 8.236400 ms  DeleteObjects: 5.612000 ms)
+Unloading 5503 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (7.1 MB). Loaded Objects now: 5949.
+Memory consumption went from 283.7 MB to 276.6 MB.
+Total: 7.315200 ms (FindLiveObjects: 0.565700 ms CreateObjectMapping: 0.402800 ms MarkObjects: 4.347900 ms  DeleteObjects: 1.997000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,59 +168,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 597133.542340 seconds.
-  path: Assets/Character/Animations/jump1.fbx
-  artifactKey: Guid(187dba9e776ae2349a38c76f7524750b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Animations/jump1.fbx using Guid(187dba9e776ae2349a38c76f7524750b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e61a8244c9e466ac5b9de984f1372ca') in 0.128024 seconds 
+  Time since last request: 608208.394365 seconds.
+  path: Assets/LevelDatas/Lv.UpgradeSettings/Lv1-Upgrade Settings.asset
+  artifactKey: Guid(0b8a63d729adff74991518e658828764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelDatas/Lv.UpgradeSettings/Lv1-Upgrade Settings.asset using Guid(0b8a63d729adff74991518e658828764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40344e81b9d45d127c481f7cc052101') in 0.080333 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Character/Animations/Idle.fbx
-  artifactKey: Guid(c3d56c4feae94c340b3925aad65f147c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Animations/Idle.fbx using Guid(c3d56c4feae94c340b3925aad65f147c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d90a5907f97abe0f650a6adff44b41a') in 0.028686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Character/Animations/Fallen Idle.fbx
-  artifactKey: Guid(adae499c7bbbaa4409d5a23bb0e43b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Animations/Fallen Idle.fbx using Guid(adae499c7bbbaa4409d5a23bb0e43b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127aadf7936c5cd99c0b6e3c6a237692') in 0.029264 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
+  Time since last request: 0.000028 seconds.
   path: Assets/BrickParent.prefab
   artifactKey: Guid(7d1f10425bf26c749b8072a45775de98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrickParent.prefab using Guid(7d1f10425bf26c749b8072a45775de98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545d6799684777ad17a00f05377500a8') in 0.283443 seconds 
+Start importing Assets/BrickParent.prefab using Guid(7d1f10425bf26c749b8072a45775de98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545d6799684777ad17a00f05377500a8') in 0.172888 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.859990 seconds.
-  path: Assets/Character/Animations
-  artifactKey: Guid(dee0d07d4ea405b459c55d83f5e08a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Animations using Guid(dee0d07d4ea405b459c55d83f5e08a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5c941b2bd7228db738a34b55cb7d64') in 0.024103 seconds 
+  Time since last request: 0.000041 seconds.
+  path: Assets/LevelDatas
+  artifactKey: Guid(9babb34cf1f8ced48a8d4f4c8608b713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelDatas using Guid(9babb34cf1f8ced48a8d4f4c8608b713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fcf5cb37c37258e4a182d3eaa5a177a') in 0.005970 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Character/Animations/victory.fbx
-  artifactKey: Guid(76e7325e904f0bf43b14a2fd9454ccd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Animations/victory.fbx using Guid(76e7325e904f0bf43b14a2fd9454ccd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48812b4e2efb49d639759c4094d7f85f') in 0.031280 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.773809 seconds.
-  path: Assets/Epic Toon FX/Models/ETFX_AuraVertical.FBX
-  artifactKey: Guid(6499342c3ae53104780ba528bc51f4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Toon FX/Models/ETFX_AuraVertical.FBX using Guid(6499342c3ae53104780ba528bc51f4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44741eef936dcb539f91c30fdaab68a') in 0.149182 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Epic Toon FX/Models/ETFX_CirclePlane.FBX
-  artifactKey: Guid(867422a617409ce43bdc40fde1c35747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Toon FX/Models/ETFX_CirclePlane.FBX using Guid(867422a617409ce43bdc40fde1c35747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b2a72080159d3ce8ff6151f1728a93') in 0.119842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Epic Toon FX/Models/ETFX_CirclePlane2.FBX
-  artifactKey: Guid(a98fc6255fba6aa4f9629b8b2fe76a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Epic Toon FX/Models/ETFX_CirclePlane2.FBX using Guid(a98fc6255fba6aa4f9629b8b2fe76a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff7d6ac2bd94bf3a13f5fd042ef1805') in 0.076461 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 0.000079 seconds.
+  path: Assets/LevelDatas/Lv.UpgradeSettings
+  artifactKey: Guid(436e7e78dd38d574f8a39ecce2dcb432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelDatas/Lv.UpgradeSettings using Guid(436e7e78dd38d574f8a39ecce2dcb432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3bc0268d994e92ee1feb1be8710055') in 0.006936 seconds 

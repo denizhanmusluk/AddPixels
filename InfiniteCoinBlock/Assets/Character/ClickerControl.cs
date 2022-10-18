@@ -27,7 +27,7 @@ public class ClickerControl : Observer
         //staminaSlider
         currentAnimSpeed = defaultAnimSpeed;
         anim.SetFloat("JumpSpeed", currentAnimSpeed);
-
+        Globals.currrentAnimSpeed = currentAnimSpeed;
         ObserverManager.Instance.RegisterObserver(this, SubjectType.GameState);
     }
 
@@ -84,6 +84,7 @@ public class ClickerControl : Observer
         yield return null;
         currentAnimSpeed = Globals.clickAnimSpeed;
         anim.SetFloat("JumpSpeed", currentAnimSpeed);
+        Globals.currrentAnimSpeed = currentAnimSpeed;
 
         _playerHealth.HealthDownStart();
 
@@ -99,6 +100,7 @@ public class ClickerControl : Observer
         {
             currentAnimSpeed = defaultAnimSpeed;
             anim.SetFloat("JumpSpeed", currentAnimSpeed);
+            Globals.currrentAnimSpeed = currentAnimSpeed;
             _playerHealth.CoolDownStart();
         }
     }

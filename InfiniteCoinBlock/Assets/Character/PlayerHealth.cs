@@ -20,6 +20,7 @@ public class PlayerHealth : MonoBehaviour
 	public bool fallActive = false;
 	Material characterMaterial;
 	float shaderHeight;
+	[SerializeField] ParticleSystem stunParticle;
     private void Awake()
     {
 		characterMaterial = characterMesh.material;
@@ -99,10 +100,15 @@ public class PlayerHealth : MonoBehaviour
     {
 		fallActive = true;
 		_clickerControl.anim.SetTrigger("Fall");
+		stunParticle.Play();
+		stunParticle.GetComponent<FollowHeadStunParticle>().StartFollowing();
 		yield return new WaitForSeconds(3f);
+		stunParticle.Stop();
 		fallActive = false;
 		_clickerControl.anim.SetTrigger("Jump");
 		CoolDownStart();
+		yield return new WaitForSeconds(1.5f);
+		stunParticle.GetComponent<FollowHeadStunParticle>().followActive = false;
 	}
 	void ShaderSet()
     {

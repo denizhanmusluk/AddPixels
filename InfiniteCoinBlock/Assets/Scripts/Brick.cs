@@ -23,8 +23,8 @@ public class Brick : MonoBehaviour
     }
     public void HitBrick()
     {
-        DoGetValuePos(brickTR, true, 0.1f, 10, 0.5f, Ease.OutElastic);
-        DoGetValueScale(brickTR, true, 0.8f, 1, 0.5f, Ease.OutElastic);
+        DoGetValuePos(brickTR, true, 4f / Globals.currrentAnimSpeed, 10, 0.5f, Ease.OutElastic);
+        DoGetValueScale(brickTR, true, 1.3f, 1, 0.7f, Ease.OutElastic);
        GameObject prt = Instantiate(hitParticle, transform.position, Quaternion.identity);
         ParticleSystem.EmissionModule emis = prt.transform.GetChild(0).GetComponent<ParticleSystem>().emission;
         emis.SetBursts(

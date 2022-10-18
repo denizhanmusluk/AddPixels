@@ -462,6 +462,7 @@
 "Assets/Epic Toon FX/Scripts/ETFXLightFade.cs"
 "Assets/Epic Toon FX/Scripts/ETFXPitchRandomizer.cs"
 "Assets/Epic Toon FX/Scripts/ETFXRotation.cs"
+"Assets/ParticlePrefabs/FollowHeadStunParticle.cs"
 "Assets/PNG_to_3D/Scripts/Builder.cs"
 "Assets/PNG_to_3D/Scripts/BuildSettings.cs"
 "Assets/PNG_to_3D/Scripts/GetPixelTextures.cs"
