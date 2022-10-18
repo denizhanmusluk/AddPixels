@@ -15,7 +15,7 @@ C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55475
+54030
 Successfully changed project path to: C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock
 C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 181.47 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 144.36 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,49 +63,541 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005246 seconds.
+Registered in 0.009647 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 140.51 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 129.49 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.932 seconds
+- Completed reload, in  0.772 seconds
 Domain Reload Profiling:
-	ReloadAssembly (932ms)
-		BeginReloadAssembly (169ms)
+	ReloadAssembly (773ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (640ms)
-			LoadAssemblies (163ms)
+		EndReloadAssembly (524ms)
+			LoadAssemblies (127ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (135ms)
+			SetupTypeCache (115ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (402ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (327ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (93ms)
+				InitializePlatformSupportModulesInManaged (68ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (141ms)
+				RefreshPlugins (130ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (115ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.033709 seconds.
-Android Extension - Scanning For ADB Devices 5314 ms
+Registered in 0.027999 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 138.88 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.227 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2228ms)
+		BeginReloadAssembly (254ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (124ms)
+		EndReloadAssembly (1834ms)
+			LoadAssemblies (251ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (354ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (1125ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (139ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (682ms)
+				ProcessInitializeOnLoadMethodAttributes (148ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.70 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5504 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (7.1 MB). Loaded Objects now: 5950.
+Memory consumption went from 283.8 MB to 276.7 MB.
+Total: 8.863100 ms (FindLiveObjects: 0.656900 ms CreateObjectMapping: 0.237400 ms MarkObjects: 5.559000 ms  DeleteObjects: 2.408200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 622293.877199 seconds.
+  path: Assets/UI/tuglaUI/jump1.png
+  artifactKey: Guid(0d9b280f07b8c5b41841d0f6f9714e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/jump1.png using Guid(0d9b280f07b8c5b41841d0f6f9714e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b3cdc8785e42af0b04cef28428c002') in 0.158570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/UI/tuglaUI/beyaz2.png
+  artifactKey: Guid(107ac98af0bcc264c99a0ba0335e453e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/beyaz2.png using Guid(107ac98af0bcc264c99a0ba0335e453e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4943ef6b27cd2255aeb5b9441e5bd2a5') in 0.029283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UI/tuglaUI/multigri.png
+  artifactKey: Guid(833a9123f520b3c4284d1a5a24e8e5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/multigri.png using Guid(833a9123f520b3c4284d1a5a24e8e5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0a66c065452b72ea33060becac31fe') in 0.029568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/UI/tuglaUI/para.png
+  artifactKey: Guid(57ea8ec08dba2664aba8ae80bfed5dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/para.png using Guid(57ea8ec08dba2664aba8ae80bfed5dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc48db153c721be86eafe28342076bc') in 0.033438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/UI/tuglaUI/baryesil.png
+  artifactKey: Guid(57b7fe8032a55ef40b2fdef6547418bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/baryesil.png using Guid(57b7fe8032a55ef40b2fdef6547418bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4b5472ed15e0ba4d3fe9babc1bba76') in 0.032153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/UI/tuglaUI/Stamina1 1.png
+  artifactKey: Guid(fac1b6aa7cd0ce14eafd19e7ec6ebfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/Stamina1 1.png using Guid(fac1b6aa7cd0ce14eafd19e7ec6ebfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2d3610fc0967cb30a40500a392b83b') in 0.039175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/UI/tuglaUI/barbeyaz.png
+  artifactKey: Guid(bf3a2c5d31dc4ed48aee4c033ca81702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/barbeyaz.png using Guid(bf3a2c5d31dc4ed48aee4c033ca81702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3723b26d0535ec2f0e2e1ed98b3265b') in 0.028740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/UI/tuglaUI/4.png
+  artifactKey: Guid(c73a701883bf34744a43141b29a4abcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/4.png using Guid(c73a701883bf34744a43141b29a4abcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9143a401b0e7dd22f4ad4e9244ee5a') in 0.030628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Player.prefab
+  artifactKey: Guid(9da3bd50797ac194982c3e51853b000c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.prefab using Guid(9da3bd50797ac194982c3e51853b000c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429fe3a68ca95ec95aace12fb51404f6') in 0.157274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BrickParent.prefab
+  artifactKey: Guid(7d1f10425bf26c749b8072a45775de98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrickParent.prefab using Guid(7d1f10425bf26c749b8072a45775de98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6c85cfebfaaed341baaadf03b7cb10') in 0.090450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UI/tuglaUI/para1.png
+  artifactKey: Guid(2944db8aff3eaaa469e462eb4af7b963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/para1.png using Guid(2944db8aff3eaaa469e462eb4af7b963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1076a7ba55a732ae0095e3a05edf351e') in 0.035966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UI/tuglaUI/multipline.png
+  artifactKey: Guid(5ef69f64dd9fd544eb77baa7dfb957d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/multipline.png using Guid(5ef69f64dd9fd544eb77baa7dfb957d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41004c5d574c73021951241e9c6d512d') in 0.031095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 167.271010 seconds.
+  path: Assets/UI/tuglaUI/JumpSpeed-1.png
+  artifactKey: Guid(e324c6a281aa49648b074709a3e05bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/JumpSpeed-1.png using Guid(e324c6a281aa49648b074709a3e05bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c274287dbc2e5275af00830d19200574') in 0.037446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/UI/tuglaUI/Stamina-2.png
+  artifactKey: Guid(d47f625527c1fa64db78fba079b09b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/Stamina-2.png using Guid(d47f625527c1fa64db78fba079b09b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f0954cc950926df8f65c4fd04e27ab') in 0.035267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.654717 seconds.
+  path: Assets/UI/tuglaUI/status_bg.png
+  artifactKey: Guid(9b3c70d501f52554192538ebcc8d51d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/status_bg.png using Guid(9b3c70d501f52554192538ebcc8d51d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4a41e9a1adf4d12cf8a59601e14c02') in 0.048889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/UI/tuglaUI/turncubar.png
+  artifactKey: Guid(fcccbde32c5d4c74a98328a00364ff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/turncubar.png using Guid(fcccbde32c5d4c74a98328a00364ff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b42fbb5a13894e82a6425d1990b398') in 0.037346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/UI/tuglaUI/turuncubar2.png
+  artifactKey: Guid(4dbd377ff5cbe734eb1045fdcd7fc8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/turuncubar2.png using Guid(4dbd377ff5cbe734eb1045fdcd7fc8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6b77a7403e4bcbad8b260820f87215') in 0.042925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.484566 seconds.
+  path: Assets/UI/tuglaUI/JumpSpeed-2.png
+  artifactKey: Guid(0da6ef6919b0dbd43b385e0039cfbd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/JumpSpeed-2.png using Guid(0da6ef6919b0dbd43b385e0039cfbd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05688d75f024cf523ff0bd009fad9ed') in 0.027572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/UI/tuglaUI/JumpSpeed-1.png
+  artifactKey: Guid(e324c6a281aa49648b074709a3e05bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/JumpSpeed-1.png using Guid(e324c6a281aa49648b074709a3e05bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234fcf63dbb5d333d232b703e1466c33') in 0.041606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/UI/tuglaUI/Stamina-2.png
+  artifactKey: Guid(d47f625527c1fa64db78fba079b09b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/Stamina-2.png using Guid(d47f625527c1fa64db78fba079b09b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2767510af28e4c62194ee1f55d0405e') in 0.029754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.911397 seconds.
+  path: Assets/UI/tuglaUI/turncubar.png
+  artifactKey: Guid(fcccbde32c5d4c74a98328a00364ff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/turncubar.png using Guid(fcccbde32c5d4c74a98328a00364ff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed61a9d1a02c1132e301e2a286c2985c') in 0.028575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 90.069497 seconds.
+  path: Assets/UI/tuglaUI/barbeyaz.png
+  artifactKey: Guid(bf3a2c5d31dc4ed48aee4c033ca81702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/barbeyaz.png using Guid(bf3a2c5d31dc4ed48aee4c033ca81702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ce68fe9d6b4568f36b852a45839513') in 0.025184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.143278 seconds.
+  path: Assets/UI/tuglaUI/baryesil.png
+  artifactKey: Guid(57b7fe8032a55ef40b2fdef6547418bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/baryesil.png using Guid(57b7fe8032a55ef40b2fdef6547418bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66c407a2e9f2329925e09fd7f96eb67') in 0.027538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.092570 seconds.
+  path: Assets/UI/tuglaUI/beyaz2.png
+  artifactKey: Guid(107ac98af0bcc264c99a0ba0335e453e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/beyaz2.png using Guid(107ac98af0bcc264c99a0ba0335e453e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa4249e5eb54eece067dc8e4548ffe4') in 0.026967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.533445 seconds.
+  path: Assets/UI/tuglaUI/beyaz2.png
+  artifactKey: Guid(107ac98af0bcc264c99a0ba0335e453e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/beyaz2.png using Guid(107ac98af0bcc264c99a0ba0335e453e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd0fc106d0a2f8510155e081b936ecf') in 0.020904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.268205 seconds.
+  path: Assets/UI/tuglaUI/beyaz3 1.png
+  artifactKey: Guid(f2bec6381cd49e5458971c22ff2364c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/beyaz3 1.png using Guid(f2bec6381cd49e5458971c22ff2364c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7161ade4dc72201a4a64be6a0e626f7e') in 0.039226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/UI/tuglaUI/gribar 1.png
+  artifactKey: Guid(ee56e254be5b29440958f1e82e0a4451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/gribar 1.png using Guid(ee56e254be5b29440958f1e82e0a4451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db839d8783c7491618bd11240f6d0504') in 0.033619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.311438 seconds.
+  path: Assets/UI/tuglaUI/beyaz4.png
+  artifactKey: Guid(439532a3648212f4a86158926fe77b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/beyaz4.png using Guid(439532a3648212f4a86158926fe77b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f455090b43eed56ab937e093571d721b') in 0.024580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/UI/tuglaUI/beyaz5.png
+  artifactKey: Guid(804bdcf2ad949bf44987307b360e03c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/beyaz5.png using Guid(804bdcf2ad949bf44987307b360e03c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a272c7d626eab69f0233ee621111cc') in 0.035130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.653829 seconds.
+  path: Assets/UI/tuglaUI/gribar.png
+  artifactKey: Guid(4d8fdc18b0752824182c63ef1ef28568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/gribar.png using Guid(4d8fdc18b0752824182c63ef1ef28568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ecbdea9327ca70515924492ff74822b') in 0.028456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.153575 seconds.
+  path: Assets/UI/tuglaUI/jump1.png
+  artifactKey: Guid(0d9b280f07b8c5b41841d0f6f9714e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/jump1.png using Guid(0d9b280f07b8c5b41841d0f6f9714e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5b92290160c2d9fc0d81ab68772e86') in 0.034471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.246813 seconds.
+  path: Assets/UI/tuglaUI/JumpSpeed-2.png
+  artifactKey: Guid(0da6ef6919b0dbd43b385e0039cfbd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/JumpSpeed-2.png using Guid(0da6ef6919b0dbd43b385e0039cfbd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b512305123aa63c3d88e92257c03684') in 0.028883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.941841 seconds.
+  path: Assets/UI/tuglaUI/jumpspeed.png
+  artifactKey: Guid(98c01bb1b1bbe614ebbe5b5ca8928f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/jumpspeed.png using Guid(98c01bb1b1bbe614ebbe5b5ca8928f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1655167010b812ade0fd284913e9e9c8') in 0.031753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/UI/tuglaUI/multipline.png
+  artifactKey: Guid(5ef69f64dd9fd544eb77baa7dfb957d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/multipline.png using Guid(5ef69f64dd9fd544eb77baa7dfb957d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53babc05bfa43d4b37a6f2babfc7ef44') in 0.039200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.614097 seconds.
+  path: Assets/UI/tuglaUI/para.png
+  artifactKey: Guid(57ea8ec08dba2664aba8ae80bfed5dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/para.png using Guid(57ea8ec08dba2664aba8ae80bfed5dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26bfd4dc9dc4b5543a7c788140ba6be') in 0.031328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.304933 seconds.
+  path: Assets/UI/tuglaUI/para1.png
+  artifactKey: Guid(2944db8aff3eaaa469e462eb4af7b963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/para1.png using Guid(2944db8aff3eaaa469e462eb4af7b963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d85495a582a4f1ff8fac5ba3b67472') in 0.034825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.956817 seconds.
+  path: Assets/UI/tuglaUI/Stamina-2.png
+  artifactKey: Guid(d47f625527c1fa64db78fba079b09b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/Stamina-2.png using Guid(d47f625527c1fa64db78fba079b09b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8730d9bc4b3fe9a87b8bf4620f2847bf') in 0.021564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.180478 seconds.
+  path: Assets/UI/tuglaUI/stamina.png
+  artifactKey: Guid(ca5fbe6902e85af4487dcf6feb64c1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/stamina.png using Guid(ca5fbe6902e85af4487dcf6feb64c1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f444bd81af2a9070d4a16ffb1cbcd2e') in 0.027906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/UI/tuglaUI/stamina1.png
+  artifactKey: Guid(61bc86942c21f424da5624a44ffe0a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/stamina1.png using Guid(61bc86942c21f424da5624a44ffe0a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d47611d3f0751682b99b0a16240bb70') in 0.033603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.459407 seconds.
+  path: Assets/UI/tuglaUI/status_bg.png
+  artifactKey: Guid(9b3c70d501f52554192538ebcc8d51d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/status_bg.png using Guid(9b3c70d501f52554192538ebcc8d51d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca5567dc149dd3e8b078aedd46b63ff') in 0.021377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.812343 seconds.
+  path: Assets/UI/tuglaUI/turuncubar2.png
+  artifactKey: Guid(4dbd377ff5cbe734eb1045fdcd7fc8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/turuncubar2.png using Guid(4dbd377ff5cbe734eb1045fdcd7fc8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9faada25832c8491cc63ab47d58c9976') in 0.027939 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006031 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.84 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.422 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1422ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (1115ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (365ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (523ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (100ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.35 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5327 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (7.1 MB). Loaded Objects now: 6006.
+Memory consumption went from 286.1 MB to 279.0 MB.
+Total: 9.527900 ms (FindLiveObjects: 1.350300 ms CreateObjectMapping: 0.316300 ms MarkObjects: 5.073400 ms  DeleteObjects: 2.784500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007121 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.265 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1266ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1044ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (525ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (279ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.84 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5327 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (7.1 MB). Loaded Objects now: 6009.
+Memory consumption went from 286.1 MB to 279.0 MB.
+Total: 8.170900 ms (FindLiveObjects: 0.613500 ms CreateObjectMapping: 0.301900 ms MarkObjects: 4.242400 ms  DeleteObjects: 3.011200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 390.575249 seconds.
+  path: Assets/UI/tuglaUI/turncubar 1.png
+  artifactKey: Guid(dcdfc7048fd113448a35dc8e67773797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/turncubar 1.png using Guid(dcdfc7048fd113448a35dc8e67773797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f5a9043c5bede7c0ad4fae8ad47594') in 0.117420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 151.820700 seconds.
+  path: Assets/UI/tuglaUI/turncubar 1.png
+  artifactKey: Guid(dcdfc7048fd113448a35dc8e67773797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/tuglaUI/turncubar 1.png using Guid(dcdfc7048fd113448a35dc8e67773797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a754f1b5c5cad581c759509d21eb62a0') in 0.039036 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005966 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 3.27 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.373 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1374ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1089ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (511ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (274ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.86 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5327 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (7.1 MB). Loaded Objects now: 6012.
+Memory consumption went from 286.1 MB to 279.0 MB.
+Total: 8.529800 ms (FindLiveObjects: 0.902800 ms CreateObjectMapping: 0.210600 ms MarkObjects: 4.664300 ms  DeleteObjects: 2.750200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
