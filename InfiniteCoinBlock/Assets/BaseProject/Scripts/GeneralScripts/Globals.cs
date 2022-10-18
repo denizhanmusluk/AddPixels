@@ -15,7 +15,7 @@ public static class Globals
 
     public static int coinPerBrick = 1; // Upgradeable
     public static int brickPerHit = 1; // Upgradeable
-    public static float coolDownSpeed = 10; // Upgradeable
+    public static float coolDownSpeed = 0; // Upgradeable
     public static float healthDownSpeed = 10; // Upgradeable
     public static float clickAnimSpeed = 2; // Upgradeable
 

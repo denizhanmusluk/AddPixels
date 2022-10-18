@@ -98,21 +98,47 @@ public class PlayerHealth : MonoBehaviour
 	}
 	IEnumerator Falling()
     {
+		StartCoroutine(CoolDown2(35));
 		fallActive = true;
 		_clickerControl.anim.SetTrigger("Fall");
 		stunParticle.Play();
 		stunParticle.GetComponent<FollowHeadStunParticle>().StartFollowing();
 		yield return new WaitForSeconds(3f);
 		stunParticle.Stop();
-		fallActive = false;
 		_clickerControl.anim.SetTrigger("Jump");
 		CoolDownStart();
-		yield return new WaitForSeconds(1.5f);
+		yield return new WaitForSeconds(2.5f);
+		fallActive = false;
 		stunParticle.GetComponent<FollowHeadStunParticle>().followActive = false;
 	}
 	void ShaderSet()
     {
 		shaderHeight = currentHealth / maxHealth;
 		characterMaterial.SetFloat("_Height", 50 * shaderHeight);
+	}
+
+	IEnumerator CoolDown2(float _cooldownSpeed)
+	{
+		float counter = currentHealth;
+		while (currentHealth < maxHealth)
+		{
+			counter += _cooldownSpeed * Time.deltaTime;
+			currentHealth = counter;
+			staminaSlider.value = currentHealth / maxHealth;
+
+			ShaderSet();
+
+
+			if (staminaSlider.value > 0.5f)
+			{
+				sliderImage.color = Color.Lerp(middleHealthColor, maxHealthColor, 2 * staminaSlider.value - 1);
+
+			}
+			else
+			{
+				sliderImage.color = Color.Lerp(minHealthColor, middleHealthColor, 2 * staminaSlider.value);
+			}
+			yield return null;
+		}
 	}
 }

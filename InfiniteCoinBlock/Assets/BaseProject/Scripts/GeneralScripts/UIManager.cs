@@ -129,12 +129,24 @@ public class UIManager : Subject
         {
             counter += 8 * Time.deltaTime;
             float money = Mathf.Lerp(oldAmount, (float)Globals.moneyAmount, counter);
-            inGameScoreText.text = ((int)money).ToString();
-
+            if (Globals.moneyAmount < 1000)
+            {
+                inGameScoreText.text = ((int)money).ToString();
+            }
+            else
+            {
+                inGameScoreText.text = ((int)money / 1000).ToString() + "." + (((int)money / 100) % 10).ToString() + "k";
+            }
             yield return null;
         }
-        inGameScoreText.text = ((int)Globals.moneyAmount).ToString();
-
+        if (Globals.moneyAmount < 1000)
+        {
+            inGameScoreText.text = ((int)Globals.moneyAmount).ToString();
+        }
+        else
+        {
+            inGameScoreText.text = ((int)Globals.moneyAmount / 1000).ToString() + "." + (((int)Globals.moneyAmount / 100) % 10).ToString() + "k";
+        }
     }
     public Tween DoGetValueScale(Transform tr, bool active, float value, float lastValue, float duration, DG.Tweening.Ease type)
     {

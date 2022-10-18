@@ -7916,8 +7916,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 847b63ebe3ae29344afe63cbe8742296, type: 2}
   upgradeSettings:
   - {fileID: 11400000, guid: 0b8a63d729adff74991518e658828764, type: 2}
-  - {fileID: 11400000, guid: c08c8018ff51e69409dc395869899ee7, type: 2}
-  - {fileID: 11400000, guid: 5fc3d5cfa4b7ce04cb52f8d597026c0a, type: 2}
+  - {fileID: 11400000, guid: c4300dcf3c4d767428e3cedcdbdc1d15, type: 2}
+  - {fileID: 11400000, guid: d00bb66bccba93d4a87742fc38a10466, type: 2}
   levelText: {fileID: 2036924393}
 --- !u!4 &1168539576
 Transform:

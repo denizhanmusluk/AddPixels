@@ -38,6 +38,7 @@ public class UpgradeManager : MonoBehaviour
         Globals.brickPerHit = upgradeSettings._brickCount[Globals.brickLevel];
         Globals.coinPerBrick = upgradeSettings._coinPerBrick[Globals.brickLevel];
         Globals.healthDownSpeed = upgradeSettings._healthDownPerSeconds[Globals.staminaLevel];
+        Globals.coolDownSpeed = upgradeSettings._coolDownPerSeconds[Globals.staminaLevel];
         Globals.clickAnimSpeed = upgradeSettings._clickAnimSpeed[Globals.clickAnimLevel];
         ModelCreat();
         if (Globals.brickLevel < upgradeSettings._brickUpgradeCost.Length - 1)
