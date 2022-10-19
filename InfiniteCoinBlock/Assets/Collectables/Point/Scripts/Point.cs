@@ -8,10 +8,12 @@ public class Point : MonoBehaviour
     [Range(0, 400)] [SerializeField] float UpwardSpeed;
     [Range(0, 4)] [SerializeField] float SimulationSpeed;
     float speedFactor;
+    float velocityFactor;
     public TextMeshProUGUI PointText;
     private void Start()
     {
         speedFactor = Random.Range(0.5f, 1f);
+        velocityFactor = Random.Range(1f, 4f);
         //foreach (var txt in GetComponentsInChildren<TextMeshProUGUI>())
         //{
         //    PointText = txt;
@@ -32,7 +34,7 @@ public class Point : MonoBehaviour
         {
             counter += speedFactor * SimulationSpeed * Time.deltaTime;
             spd = Mathf.Cos(counter);
-            spd *= UpwardSpeed;
+            spd *= UpwardSpeed * velocityFactor;
             transform.position = Vector3.MoveTowards(transform.position, transform.position + new Vector3(0, 1, 0), Time.deltaTime * spd);
 
             yield return null;

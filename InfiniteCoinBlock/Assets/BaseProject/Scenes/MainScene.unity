@@ -1191,7 +1191,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481804631}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 379, z: 782}
+  m_LocalPosition: {x: 0, y: 1133, z: 722}
   m_LocalScale: {x: 1060.8055, y: 1060.8055, z: 1060.8055}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7910,14 +7910,44 @@ MonoBehaviour:
   - {fileID: 11400000, guid: bb7ebef1c636c1649adb0e4b8df2af31, type: 2}
   - {fileID: 11400000, guid: b7378a23c56dfe640a152f1608688176, type: 2}
   - {fileID: 11400000, guid: 783145d928ccbe74fa2e60517d81a26d, type: 2}
+  - {fileID: 11400000, guid: dbbb27cf6140d8b47909a65533bc135e, type: 2}
+  - {fileID: 11400000, guid: 5c2fdffe29b241949a067aad0c5f1c69, type: 2}
+  - {fileID: 11400000, guid: e654f73a9a81e5649b13d87c7b744031, type: 2}
+  - {fileID: 11400000, guid: ce1e38bf4943c0847ad56eaef96a79d8, type: 2}
+  - {fileID: 11400000, guid: a82eb45ad72d1e249b1c46f04846a6e0, type: 2}
+  - {fileID: 11400000, guid: d9fb263303684e14d9875d2c54cb6c6a, type: 2}
+  - {fileID: 11400000, guid: 7672d758dcb9bcb4db7f14f94df1ed40, type: 2}
+  - {fileID: 11400000, guid: 49bd3edfc1b42e0458edd351d8630f68, type: 2}
+  - {fileID: 11400000, guid: 7cedfca2fddfbbf478925bd9721e4d05, type: 2}
+  - {fileID: 11400000, guid: 627f8b57b59df08419b68069e328f546, type: 2}
   levelBuildSettings:
   - {fileID: 11400000, guid: c40132b7010c1be46ba35d7d9ac388f7, type: 2}
   - {fileID: 11400000, guid: fb33332a02435c5459b1d6fadcbe7a81, type: 2}
   - {fileID: 11400000, guid: 847b63ebe3ae29344afe63cbe8742296, type: 2}
+  - {fileID: 11400000, guid: 6bbea4a04bfa3384d93fbe339fa898ed, type: 2}
+  - {fileID: 11400000, guid: 53d832b636b667e488b6234d51c4bec6, type: 2}
+  - {fileID: 11400000, guid: dd6072a00933a1042a91ae568b061fe4, type: 2}
+  - {fileID: 11400000, guid: 2cd4ef06bf8af824fa3a3facbfefb652, type: 2}
+  - {fileID: 11400000, guid: b5d73ee475b7631458910c2e0cf0102c, type: 2}
+  - {fileID: 11400000, guid: 72564b674d0c8b146bd9cf904d795bae, type: 2}
+  - {fileID: 11400000, guid: 4836346dd5918844ea4904f9443bca64, type: 2}
+  - {fileID: 11400000, guid: b3600c54f563a4749ac461f1731ad446, type: 2}
+  - {fileID: 11400000, guid: 3be526afce1f5ee4b96d237aabc9b792, type: 2}
+  - {fileID: 11400000, guid: de9ad39aa4ddacd4487c62af34b88378, type: 2}
   upgradeSettings:
   - {fileID: 11400000, guid: 0b8a63d729adff74991518e658828764, type: 2}
   - {fileID: 11400000, guid: c4300dcf3c4d767428e3cedcdbdc1d15, type: 2}
-  - {fileID: 11400000, guid: d00bb66bccba93d4a87742fc38a10466, type: 2}
+  - {fileID: 11400000, guid: e27c95aeb80158441800aeacfdc8db8e, type: 2}
+  - {fileID: 11400000, guid: b17a33f7836a2fe46a4fde609ca3b41a, type: 2}
+  - {fileID: 11400000, guid: 8dccbc9650228064db9784e83ef9e05e, type: 2}
+  - {fileID: 11400000, guid: 0b82231a6181eab4db1ff21ed6b41c7b, type: 2}
+  - {fileID: 11400000, guid: b466d48ba493c9649ab4640a99868215, type: 2}
+  - {fileID: 11400000, guid: bd9d9f06fc72a06468aba608c8f98976, type: 2}
+  - {fileID: 11400000, guid: 5fa252d56b06e4b409fe5f407cb48728, type: 2}
+  - {fileID: 11400000, guid: 59785702cb139be41a0c7b7d8aa60180, type: 2}
+  - {fileID: 11400000, guid: 0facb8031ae629f4bb9293e8b0e38bbb, type: 2}
+  - {fileID: 11400000, guid: 5e24d4437f0476b4f9b6083474773fab, type: 2}
+  - {fileID: 11400000, guid: 83b527087765c74468ed6c3a0011fe92, type: 2}
   levelText: {fileID: 2036924393}
 --- !u!4 &1168539576
 Transform:
@@ -11029,7 +11059,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1274403664546095512
 Transform:
   m_ObjectHideFlags: 0

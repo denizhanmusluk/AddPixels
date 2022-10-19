@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class UpgradeSettings : ScriptableObject
 {
+
+
     [Header("       BRICK UPGRADE")]
     [SerializeField] private GameObject[] brickBoxPrefab;
     public GameObject[] _brickBoxPrefab { get { return brickBoxPrefab; } }
@@ -40,4 +42,8 @@ public class UpgradeSettings : ScriptableObject
     [SerializeField] private int[] clickAnimUpgradeCost;
     public int[] _clickAnimUpgradeCost { get { return clickAnimUpgradeCost; } }
 
+    private void Awake()
+    {
+        
+    }
 }

@@ -1,0 +1,1420 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 5996 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+57864
+Successfully changed project path to: C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock
+C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 172.53 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3965 MB
+    Driver:   30.0.15.1236
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008053 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 117.12 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.640 seconds
+Domain Reload Profiling:
+	ReloadAssembly (640ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (447ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (81ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (297ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (57ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006238 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 124.69 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.512 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1513ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (1216ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (735ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (125ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (412ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.53 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5505 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (7.1 MB). Loaded Objects now: 5951.
+Memory consumption went from 283.8 MB to 276.8 MB.
+Total: 5.898500 ms (FindLiveObjects: 0.464000 ms CreateObjectMapping: 0.178700 ms MarkObjects: 3.328500 ms  DeleteObjects: 1.926600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 725748.237636 seconds.
+  path: Assets/Epic Toon FX/Textures/coins.png
+  artifactKey: Guid(ce217c92cf7b8d64f9dbb19d53ca5c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/coins.png using Guid(ce217c92cf7b8d64f9dbb19d53ca5c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38e13fc819799bf3e12b6b972f0d8bb') in 0.153708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/BaseProject/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png
+  artifactKey: Guid(7051dba417b3d53409f2918f1ea4938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png using Guid(7051dba417b3d53409f2918f1ea4938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae296a3264303320c396716902abeb7') in 0.032948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Epic Toon FX/Textures/evil_spirit3.png
+  artifactKey: Guid(62cf045bae9b6ce498ff8b5ca766aebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/evil_spirit3.png using Guid(62cf045bae9b6ce498ff8b5ca766aebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be578fda81d11b28e7d6504774576755') in 0.046122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Epic Toon FX/Textures/fire_ground_softer3x3.png
+  artifactKey: Guid(77df309a835044f43bfdb69d4e65bf92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/fire_ground_softer3x3.png using Guid(77df309a835044f43bfdb69d4e65bf92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a496bae40c117b81d7329b4bcea3dc96') in 0.032920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Epic Toon FX/Demo/Textures/devcrate.png
+  artifactKey: Guid(32304db2d12d1ce489b65454715180c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Demo/Textures/devcrate.png using Guid(32304db2d12d1ce489b65454715180c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37ed10127cdcd7005821979661e2965') in 0.040259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Epic Toon FX/Textures/Text/crit.png
+  artifactKey: Guid(a9faa9855dff4714593940cff2275834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/Text/crit.png using Guid(a9faa9855dff4714593940cff2275834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c400415ac28e8b5bb054f4e58c7e8b0a') in 0.052044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/Preview/Equipment_Popup_Detail2.png
+  artifactKey: Guid(32dd225a024574be2af50adae514a9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/Preview/Equipment_Popup_Detail2.png using Guid(32dd225a024574be2af50adae514a9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1d2801ad39299af4f344ef7a4bb84d') in 0.273741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BaseProject/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png
+  artifactKey: Guid(8da095e39e9b4df488dfd436f81116d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png using Guid(8da095e39e9b4df488dfd436f81116d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d935f2e125595f579a27720a33fc29') in 0.026683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_BarFrame_Top02_Navy.png
+  artifactKey: Guid(6163179331e7542c183da946d5438c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_BarFrame_Top02_Navy.png using Guid(6163179331e7542c183da946d5438c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb66b4f166260ef35ee004e466c4f1eb') in 0.040702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BaseProject/LeanTween/Examples/Textures/DefaultParticleReplacement.jpg
+  artifactKey: Guid(eabba395643bb4e388d633c8d9a4f1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/LeanTween/Examples/Textures/DefaultParticleReplacement.jpg using Guid(eabba395643bb4e388d633c8d9a4f1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a307024dc538458bd3bb0ea6bde0bf7') in 0.032589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Epic Toon FX/Demo/Textures/devsprite_small.png
+  artifactKey: Guid(1b11d80e568a47143a1865eb7ae8976e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Demo/Textures/devsprite_small.png using Guid(1b11d80e568a47143a1865eb7ae8976e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97483317597de3494173830b8cb68b7b') in 0.046286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/Preview/Equipment_Popup_AddSlot.png
+  artifactKey: Guid(41920c4b6f2aa4d8fb3b5c82de5e00e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/Preview/Equipment_Popup_AddSlot.png using Guid(41920c4b6f2aa4d8fb3b5c82de5e00e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4c1feea08fef3842934a45a6ea1370') in 0.140340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Epic Toon FX/Demo/Textures/devwall.png
+  artifactKey: Guid(af4ccf7ce4971af43a7a380e583e6d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Demo/Textures/devwall.png using Guid(af4ccf7ce4971af43a7a380e583e6d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67397fc9e2223b7099789293d090ccf1') in 0.032990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Epic Toon FX/Textures/explosion_spritesheet_softshadow_3x3.png
+  artifactKey: Guid(2006c46023e3ce044b47a21d6618ad27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/explosion_spritesheet_softshadow_3x3.png using Guid(2006c46023e3ce044b47a21d6618ad27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598708c8328a0898463d064502bd3f78') in 0.031137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Epic Toon FX/Textures/Emojis/expressionless.png
+  artifactKey: Guid(437a9fa932ecb444993f508d7a2a4a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/Emojis/expressionless.png using Guid(437a9fa932ecb444993f508d7a2a4a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51d95fc89e349fa51d6714ec7417001') in 0.034551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Epic Toon FX/Textures/fire_soft_blank.png
+  artifactKey: Guid(4984ee10e316e1d469a3c2df8a9ab134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/fire_soft_blank.png using Guid(4984ee10e316e1d469a3c2df8a9ab134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eaeb12ef8d60b15e8807f4e4472ed51') in 0.031187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Epic Toon FX/Textures/fire_soft_spiky.png
+  artifactKey: Guid(ca6cafec51f1a8e4caf09a794e740523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/fire_soft_spiky.png using Guid(ca6cafec51f1a8e4caf09a794e740523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c96520cba5f4ca7f2f2528f228be25') in 0.034239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Epic Toon FX/Textures/decal_scorch.png
+  artifactKey: Guid(d659a3754719fff45b28cec4c855e27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/decal_scorch.png using Guid(d659a3754719fff45b28cec4c855e27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd26e627615a1e0cfd185484ba5335b') in 0.030720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Epic Toon FX/Textures/decal_gibs.png
+  artifactKey: Guid(eb61ee1b78fda2f40b23b2463f6f1436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/decal_gibs.png using Guid(eb61ee1b78fda2f40b23b2463f6f1436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6f37c0178b7e951a8839c579fdff0d') in 0.039503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Epic Toon FX/Demo/Textures/dev4_m.png
+  artifactKey: Guid(5a8fee4f74b068243867d75205bd69c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Demo/Textures/dev4_m.png using Guid(5a8fee4f74b068243867d75205bd69c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211fa7a3cd9409a44895d51c063c9191') in 0.029248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Epic Toon FX/Textures/decal_atlas.png
+  artifactKey: Guid(15b6357f26ee271458084e3603b7824c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/decal_atlas.png using Guid(15b6357f26ee271458084e3603b7824c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53c07c50c2349103eb633ebeec3e5ef') in 0.031632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Epic Toon FX/Textures/Text/crack.png
+  artifactKey: Guid(d87d2c887fec4e84eaa240ea8eaaca89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/Text/crack.png using Guid(d87d2c887fec4e84eaa240ea8eaaca89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6759f804391004ef2d5d74648c501a67') in 0.032075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Epic Toon FX/Demo/Textures/devtarget.png
+  artifactKey: Guid(92e32f8601f101c42811acfb2a6ecf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Demo/Textures/devtarget.png using Guid(92e32f8601f101c42811acfb2a6ecf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b9cc882646cb6ddc59d6867a10dba4') in 0.030246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Epic Toon FX/Textures/evil_spirit.png
+  artifactKey: Guid(cc3d94d2188f94d40b9aa4774f0895b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/evil_spirit.png using Guid(cc3d94d2188f94d40b9aa4774f0895b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3e0719f6da48409fcdc006a2da447d') in 0.024674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Epic Toon FX/Textures/fire_soft.png
+  artifactKey: Guid(c1969f56ca4638f4caa04c5c0b510d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/fire_soft.png using Guid(c1969f56ca4638f4caa04c5c0b510d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8077100dcaa3807e486f52b9045afa2a') in 0.031572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/BaseProject/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png
+  artifactKey: Guid(61521df2e071645488ba3d05e49289ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png using Guid(61521df2e071645488ba3d05e49289ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e836fd5ce1f8cdb96eeffed7d73cf0') in 0.026986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_BarFrame_Bottom01_Navy.png
+  artifactKey: Guid(b858bebb7ef844ebfa0925b043df50fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_BarFrame_Bottom01_Navy.png using Guid(b858bebb7ef844ebfa0925b043df50fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf5afdce76efe807c53f8d340fe00a7') in 0.031798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Epic Toon FX/Demo/Textures/dev2.png
+  artifactKey: Guid(19b3d2fab3fdf9b43942da5f39626c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Demo/Textures/dev2.png using Guid(19b3d2fab3fdf9b43942da5f39626c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db865c797fe166e1771d028c15d1133b') in 0.027450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Epic Toon FX/Textures/Emojis/cute.png
+  artifactKey: Guid(dafeb3f0fbf3e75449ca68e1d6195d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/Emojis/cute.png using Guid(dafeb3f0fbf3e75449ca68e1d6195d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0203d62a4e5cbb618a962d98d420644') in 0.032688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BaseProject/Sprites/UI2/failed.png
+  artifactKey: Guid(34dc60ab1d1ffb04cb35028da4d6d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/Sprites/UI2/failed.png using Guid(34dc60ab1d1ffb04cb35028da4d6d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9eec907621ee10c24ad0f197a6635d') in 0.122848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Epic Toon FX/Textures/Text/critical.png
+  artifactKey: Guid(af779da0a2ff25142a0776defc46d826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/Text/critical.png using Guid(af779da0a2ff25142a0776defc46d826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8f209df8b1f331bb96f7f35aac94fd') in 0.042313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Epic Toon FX/Demo/Textures/dirt.png
+  artifactKey: Guid(3f4f10d7f2ec43240afa9641cf1736b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Demo/Textures/dirt.png using Guid(3f4f10d7f2ec43240afa9641cf1736b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c44115601c73e5285a0a1f090d3ad4') in 0.027610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Epic Toon FX/Demo/Textures/devcrate2.png
+  artifactKey: Guid(f97ac768b4ee13248983d5cc1ed3bd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Demo/Textures/devcrate2.png using Guid(f97ac768b4ee13248983d5cc1ed3bd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad33e24c547014c25ef5ec4fd160909') in 0.020236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider10_Icon3.png
+  artifactKey: Guid(16ab75e0c41064424b1679e52085f2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider10_Icon3.png using Guid(16ab75e0c41064424b1679e52085f2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead40d60b79ea0c6b8250a42a9fc431b') in 0.029496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider11_Frame.png
+  artifactKey: Guid(c95935206d18f42399e9881ce6bdf61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider11_Frame.png using Guid(c95935206d18f42399e9881ce6bdf61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a735c6e704ccc8d285a611106d98da52') in 0.039256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider15_Frame.png
+  artifactKey: Guid(317dd1bb82cf7413ca878df74083167e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider15_Frame.png using Guid(317dd1bb82cf7413ca878df74083167e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082d49df06690c568429bb4500e130d5') in 0.033899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider17_Fill.png
+  artifactKey: Guid(41f68bec7506344f19c4a2960cda7eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider17_Fill.png using Guid(41f68bec7506344f19c4a2960cda7eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a174664b0e2e68880c450f5ebfc8191c') in 0.035208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider12_Handle.png
+  artifactKey: Guid(6124341aca5a24f1c8ffa878bf205e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider12_Handle.png using Guid(6124341aca5a24f1c8ffa878bf205e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a6bd7d9da9a8021a173167ff7ec072') in 0.026289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider10_Icon1.png
+  artifactKey: Guid(8c42e4b5b5eae4a19a2b65f2108cd8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider10_Icon1.png using Guid(8c42e4b5b5eae4a19a2b65f2108cd8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd555146583f317749289330d2d15893d') in 0.026824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider16_Frame.png
+  artifactKey: Guid(a9e8057e4267c4f57875a26c240facbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider16_Frame.png using Guid(a9e8057e4267c4f57875a26c240facbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0825a37a7ab1c92ac863885fdfcd78b1') in 0.031041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/BaseProject/JMO Assets/Toony Colors Pro/Textures/Dithering/TCP2_DitherPattern_Bayer_16.png
+  artifactKey: Guid(a98847430c9635f49a98a6ca5477d114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/JMO Assets/Toony Colors Pro/Textures/Dithering/TCP2_DitherPattern_Bayer_16.png using Guid(a98847430c9635f49a98a6ca5477d114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55780ba5388bbf8eb9b0d3fc071a1d92') in 0.025420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/RuneIcon1_Buff.Png
+  artifactKey: Guid(f668d02a428774352b1ebad5c88557f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/RuneIcon1_Buff.Png using Guid(f668d02a428774352b1ebad5c88557f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198fdc815bf6d4ef7e172f221bf301cd') in 0.042576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider16_Icon.png
+  artifactKey: Guid(9486317a5007c4a7a8fad68173188178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider16_Icon.png using Guid(9486317a5007c4a7a8fad68173188178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5521dc40b19a56361702a716f26bb53f') in 0.030089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider10_FrameLine.png
+  artifactKey: Guid(d5f23f0f264de4b4dbf982555aa2bf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider10_FrameLine.png using Guid(d5f23f0f264de4b4dbf982555aa2bf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75cadce3d5a5138d937c50b30f1b09d9') in 0.030233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Popup/Popup_SideFrame01.png
+  artifactKey: Guid(6014cdcfc7d90457782dc80acc6242c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Popup/Popup_SideFrame01.png using Guid(6014cdcfc7d90457782dc80acc6242c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2edef1aa9859e5a1c6a59b8c7555ff') in 0.030617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider19_Fusion_Bg3.png
+  artifactKey: Guid(a1eaf0fed1db84067bfcc655b7cb0a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider19_Fusion_Bg3.png using Guid(a1eaf0fed1db84067bfcc655b7cb0a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df3c7c3b9136f185fb80905ef1175b9') in 0.064207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider19_Fusion_Bg5.png
+  artifactKey: Guid(f0133012cc62849fb95cdbb77e4164cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider19_Fusion_Bg5.png using Guid(f0133012cc62849fb95cdbb77e4164cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb94ca0a1ffc99c3e5d3f62bbebbec5') in 0.047184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_UI/User_Player1_Frame2.png
+  artifactKey: Guid(eabf980dbdb3e401c8474149994d26e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_UI/User_Player1_Frame2.png using Guid(eabf980dbdb3e401c8474149994d26e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e72a44608584b832639f745e38356a') in 0.033844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/RuneIcon1_Damage.Png
+  artifactKey: Guid(ccce3c4995a184098871954601242143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/RuneIcon1_Damage.Png using Guid(ccce3c4995a184098871954601242143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9923eef02f099be163820518eeb76c88') in 0.028840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider01_Fill.png
+  artifactKey: Guid(77237084d67f848cd9c89a28f0b3c421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider01_Fill.png using Guid(77237084d67f848cd9c89a28f0b3c421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b75d84ac39c378d432f83b6130cb3d1') in 0.029180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider14_Fill.png
+  artifactKey: Guid(9d8678ca05b1a4c318a8be7f99604567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider14_Fill.png using Guid(9d8678ca05b1a4c318a8be7f99604567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331df61d9fb594677f2b3dcbab4c155c') in 0.031683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/RuneIcon1_Ball_Health.Png
+  artifactKey: Guid(f75ba11e3a0f840d79ceb24231088ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/RuneIcon1_Ball_Health.Png using Guid(f75ba11e3a0f840d79ceb24231088ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa990b15d6d54b0731c94ab21817db8e') in 0.028635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider15_FrameLine.png
+  artifactKey: Guid(5d6b694668082487b9d13f2020d0840d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider15_FrameLine.png using Guid(5d6b694668082487b9d13f2020d0840d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91abbc6ab6d6e10e1abb019f0cd73fde') in 0.028657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/RuneIcon1_Ball_Count.Png
+  artifactKey: Guid(3bd72ca3c2cd14673a655c6511fc9f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/RuneIcon1_Ball_Count.Png using Guid(3bd72ca3c2cd14673a655c6511fc9f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98169be3e8e194900cdae9a8e80ea9ee') in 0.032125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider13_Fill.png
+  artifactKey: Guid(4a9772c11a10c496eaec081fa5780868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider13_Fill.png using Guid(4a9772c11a10c496eaec081fa5780868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3df867e47f4d18ae1957e40ad579a7') in 0.029587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider19_Fusion_Bg2.png
+  artifactKey: Guid(fb29f34a909f9437282d64589c55b8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider19_Fusion_Bg2.png using Guid(fb29f34a909f9437282d64589c55b8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4209427f6147092c3cf75430f6e23d3f') in 0.065653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider03_Icon1.png
+  artifactKey: Guid(accbfd738f02043f787cf52148723d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider03_Icon1.png using Guid(accbfd738f02043f787cf52148723d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5cebeaf1479f03c57b4d1ec997c09f') in 0.033382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider19_Fusion_Frame.png
+  artifactKey: Guid(77a23063aee114421aeaef7ff09f2c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider19_Fusion_Frame.png using Guid(77a23063aee114421aeaef7ff09f2c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f543723dd6f299b9d9b79a758f7f55') in 0.073803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider15_Fill.png
+  artifactKey: Guid(457c151b4168e40cf8db006bac1b8727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider15_Fill.png using Guid(457c151b4168e40cf8db006bac1b8727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efdb6b48fa7e53686e33efea2f0e876') in 0.037222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider10_Icon2.png
+  artifactKey: Guid(ed3aaf0e78f314d538320fe6f0320773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider10_Icon2.png using Guid(ed3aaf0e78f314d538320fe6f0320773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4428ef0ba9c06071ca38b7237072fb80') in 0.034854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider11_Fill_Yellow.png
+  artifactKey: Guid(af67f6c46933441daaa64d6880890586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider11_Fill_Yellow.png using Guid(af67f6c46933441daaa64d6880890586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fde770d0ab314a26bbffe1add286a9') in 0.029488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider02_Icon1.png
+  artifactKey: Guid(640724475c72a47018e84ab3b25391f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider02_Icon1.png using Guid(640724475c72a47018e84ab3b25391f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0cba7ec3865b482a760229266d932b') in 0.028154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/RuneIcon_Frame_1.png
+  artifactKey: Guid(9681f770c55d742df904f1727dbd82ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/RuneIcon_Frame_1.png using Guid(9681f770c55d742df904f1727dbd82ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e34d977804c0e7d92817490f622ea0') in 0.031100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/RuneIcon1_Debuff.Png
+  artifactKey: Guid(01646ee515edc44a49c7405aa700041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/RuneIcon1_Debuff.Png using Guid(01646ee515edc44a49c7405aa700041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338167de8b0b39126bceb91ff1bf5ca7') in 0.039257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider15_FrontFrame.png
+  artifactKey: Guid(9960cd5398a754e8a963656ed6bb38eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider15_FrontFrame.png using Guid(9960cd5398a754e8a963656ed6bb38eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76de1416c1486e3ae6386d1c1ea47e18') in 0.023333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider10_Frame.png
+  artifactKey: Guid(b56ce7c396ca04c14a596c4553a5f161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider10_Frame.png using Guid(b56ce7c396ca04c14a596c4553a5f161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21956d78d40d69914f8cf290d24ae5d') in 0.051748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider01_icon2.png
+  artifactKey: Guid(78f7436ea745448f48e4ef7cd0aa0f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider01_icon2.png using Guid(78f7436ea745448f48e4ef7cd0aa0f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff10b2773977f3e43ca9f33b560b148') in 0.035757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider19_Fusion_Bg4.png
+  artifactKey: Guid(d76183b5f944e4bf7b83bfb855b435d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Slider/Slider19_Fusion_Bg4.png using Guid(d76183b5f944e4bf7b83bfb855b435d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb8d0d978e05ee10e12e6543b7a0bd3') in 0.050914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_UI/User_Player2_Frame1.png
+  artifactKey: Guid(298dca82e7a4c498aa038b3cb370b5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_UI/User_Player2_Frame1.png using Guid(298dca82e7a4c498aa038b3cb370b5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fecb6a449cb0215f7685faee5519788') in 0.026752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/Preview/Shop1.png
+  artifactKey: Guid(bc1b22ecdcdcf4d30a549cd0d0419d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/Preview/Shop1.png using Guid(bc1b22ecdcdcf4d30a549cd0d0419d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ca5a2f703dd97209dbe5167b87803f') in 0.166636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/BaseProject/JMO Assets/Toony Colors Pro/Textures/Sketch/TCP2_SketchB_Diag1.png
+  artifactKey: Guid(f1ea04fb4ec98b64ebe859386b64e7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/JMO Assets/Toony Colors Pro/Textures/Sketch/TCP2_SketchB_Diag1.png using Guid(f1ea04fb4ec98b64ebe859386b64e7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac46383e857ff6df2a7839adb810e67') in 0.029293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/RuneIcon1_Passive.Png
+  artifactKey: Guid(7fe4db321887a4213ac431e94bce88e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/RuneIcon1_Passive.Png using Guid(7fe4db321887a4213ac431e94bce88e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60520674e0a486e2f249219deef31aa7') in 0.031679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_UI/User_Player1_Frame1.png
+  artifactKey: Guid(5b3201120c6b845a788788a662f00338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_UI/User_Player1_Frame1.png using Guid(5b3201120c6b845a788788a662f00338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d22b6e3ef800b130d115d193f992bc') in 0.029796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Epic Toon FX/Textures/Emojis/dead.png
+  artifactKey: Guid(0b4ecb3d2b4288d42bfc569a6e0db41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/Emojis/dead.png using Guid(0b4ecb3d2b4288d42bfc569a6e0db41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89e08c53a810f73c192708191b3feb1') in 0.033133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/RuneIcon1_Get_Coin.Png
+  artifactKey: Guid(9d196f871f241426baa7fece4b4ca4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/RuneIcon1_Get_Coin.Png using Guid(9d196f871f241426baa7fece4b4ca4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d4d4f5992937138a7fbda02d565424') in 0.028040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Epic Toon FX/Textures/coins_outline.png
+  artifactKey: Guid(f3e2a869cc380654290549d1005a50ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/coins_outline.png using Guid(f3e2a869cc380654290549d1005a50ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0dcde6527b41c1ce4972c7b08eef708') in 0.024525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.233677 seconds.
+  path: Assets/BaseProject/Sprites/para-UI_1.png
+  artifactKey: Guid(d995a7c67c3e89e45840521ad341c5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/Sprites/para-UI_1.png using Guid(d995a7c67c3e89e45840521ad341c5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61da6eae9f041753a13c156d8cb752c9') in 0.040097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Play/Play_Skill_1_dimed.png
+  artifactKey: Guid(58b4b0657ad1f4473b181614294c2252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Play/Play_Skill_1_dimed.png using Guid(58b4b0657ad1f4473b181614294c2252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37376c895a0eb0fdb7426d6a01b6b23') in 0.036723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ShopIcon_Gem1.png
+  artifactKey: Guid(d26dfb6e166ea49938deb2366511908d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ShopIcon_Gem1.png using Guid(d26dfb6e166ea49938deb2366511908d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad02a086d459a4d17c432c89a4dbf46') in 0.035252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Potion01_Purple.Png
+  artifactKey: Guid(af5433a9a526248eb8b87c0b514b9a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Potion01_Purple.Png using Guid(af5433a9a526248eb8b87c0b514b9a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a053a170ebb185df355eccbcddc948f') in 0.044409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_UI/InputField_Icon_Account_1.png
+  artifactKey: Guid(e7616c318c334479c9b0c12357d85650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_UI/InputField_Icon_Account_1.png using Guid(e7616c318c334479c9b0c12357d85650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52486333c99c0529047794291582a07e') in 0.027968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 210 SDF Atlas.png
+  artifactKey: Guid(344ece39f87ef42eda903eba1635395a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 210 SDF Atlas.png using Guid(344ece39f87ef42eda903eba1635395a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e74df88367eefc4c35652193e01ec8') in 0.263657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Close01.png
+  artifactKey: Guid(70f78e062098c4496b852abefff63acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Close01.png using Guid(70f78e062098c4496b852abefff63acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f292d3ad5d2cda6b27279de074c79340') in 0.028855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/Icon_RuneSample_s_1.Png
+  artifactKey: Guid(6325706bbc2f942d293bc3cc86f9e00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/Icon_RuneSample_s_1.Png using Guid(6325706bbc2f942d293bc3cc86f9e00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8db98edbb7daeb2802ac92b0069c33') in 0.030125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Label/Label_LeftLabel01_Blue.png
+  artifactKey: Guid(f4f151a5ee5d4481aa3b02b2d79d33b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Label/Label_LeftLabel01_Blue.png using Guid(f4f151a5ee5d4481aa3b02b2d79d33b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4019bb4ca2fee827e2ceccd5c1d84e6e') in 0.029074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Label/Label_LeftLabel01_Orange.png
+  artifactKey: Guid(6e89577c7208241f8b2e979f467525d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Label/Label_LeftLabel01_Orange.png using Guid(6e89577c7208241f8b2e979f467525d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72ecacf94cf12643d785ed0a3d2dbb2') in 0.028582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BaseProject/JMO Assets/Toony Colors Pro/Textures/MatCap/MC Additive 1.png
+  artifactKey: Guid(4a2220c954a7264459efb3be35445157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/JMO Assets/Toony Colors Pro/Textures/MatCap/MC Additive 1.png using Guid(4a2220c954a7264459efb3be35445157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73915b512acb86084df7c4b3ee3f300f') in 0.026242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 120 SDF Atlas.png
+  artifactKey: Guid(f4318018eb26b46dd83e7f4c0bfb4a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 120 SDF Atlas.png using Guid(f4318018eb26b46dd83e7f4c0bfb4a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32af3643ceea3b75c7f7f82be91b8d36') in 0.092105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_UI/InputField_Frame01_n.png
+  artifactKey: Guid(1d48c180f78384887b54f3ce7bc8046f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_UI/InputField_Frame01_n.png using Guid(1d48c180f78384887b54f3ce7bc8046f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5442d58f17919bd739ce1a5e71476d3e') in 0.022602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Add01.png
+  artifactKey: Guid(a32a1409bcf5a4d5d81ea614cdd08f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Add01.png using Guid(a32a1409bcf5a4d5d81ea614cdd08f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0792f02f15f73c48681efe1238e65d') in 0.023896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Potion01_Blue.Png
+  artifactKey: Guid(bee99074e3aaa4f10b57618376e3c07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Potion01_Blue.Png using Guid(bee99074e3aaa4f10b57618376e3c07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562d1dfaa6d6d6a9b7ad2cdb8f38564d') in 0.025531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Character/Play_Caracter_Sample1.png
+  artifactKey: Guid(2a19c04b8c8d04b14a6f7a59974b1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Character/Play_Caracter_Sample1.png using Guid(2a19c04b8c8d04b14a6f7a59974b1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04bc357370164d517f86092b4d061e1') in 0.034359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Play/Play_Minimap_Icon_1.png
+  artifactKey: Guid(42a128f365d0c4c52b151466427d1cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Play/Play_Minimap_Icon_1.png using Guid(42a128f365d0c4c52b151466427d1cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a8c11701292ee1adaedba07d80b284') in 0.025790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Next01.png
+  artifactKey: Guid(83c4252c97d8e4daeba99d69cfa5cb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_PictoIcon_Next01.png using Guid(83c4252c97d8e4daeba99d69cfa5cb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab297d8e0bf08a8ff2bc703b99607b4') in 0.030183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/Icon_RuneSample_l_1.png
+  artifactKey: Guid(e2d5a1a754bad41da8a24fdabf908717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_RuneIcons(Original)/Icon_RuneSample_l_1.png using Guid(e2d5a1a754bad41da8a24fdabf908717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2757067dfbfbc07e3e90c08ffb4751f9') in 0.029753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.880294 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ImageIcon_Lock01_s.png
+  artifactKey: Guid(72085927ed4e5404aa1a7448a1e8996d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ImageIcon_Lock01_s.png using Guid(72085927ed4e5404aa1a7448a1e8996d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9645f7f57b95077d41fed847ee2335b6') in 0.036106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ImageIcon_Lock01_l.png
+  artifactKey: Guid(f1f6097e1845c4c74b0badf93519bd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ImageIcon_Lock01_l.png using Guid(f1f6097e1845c4c74b0badf93519bd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17cf3df8a8a3df130097f8ea8c5961cf') in 0.038930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_ListFrame11_Green.png
+  artifactKey: Guid(c1149bc1568124c86a752314b78000ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_ListFrame11_Green.png using Guid(c1149bc1568124c86a752314b78000ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0c3e2d546ea0d2681b5d3af9e7d5a8') in 0.034123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Character/Character_Sample01_s.png
+  artifactKey: Guid(c06fecf5f5c014aba8e7992f21a0cc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Character/Character_Sample01_s.png using Guid(c06fecf5f5c014aba8e7992f21a0cc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a77d5019c3219a35d062ebbafe88b7c') in 0.044006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ChestIcon_Gold01_xl.png
+  artifactKey: Guid(03911bb6df5894a4ca4b5543901dc0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ChestIcon_Gold01_xl.png using Guid(03911bb6df5894a4ca4b5543901dc0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5dd0c87352a704bbc37bbfdfa027756') in 0.041812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_circle_blur 1.png
+  artifactKey: Guid(4eb0b3a297d7445b0bac2ecfeb41cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Particle/Texture/fx_circle_blur 1.png using Guid(4eb0b3a297d7445b0bac2ecfeb41cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0775729aa454936d02a3d29f5a54eee4') in 0.057803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ImageIcon_Glod01_l.png
+  artifactKey: Guid(808fbd9aa05d24d049320db1a0b7176b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ImageIcon_Glod01_l.png using Guid(808fbd9aa05d24d049320db1a0b7176b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb16ca8dd2305b34b1199daaa70374d') in 0.041945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_ListFrame14_d.png
+  artifactKey: Guid(f965acaf030bc408bb107241ad5d371b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_ListFrame14_d.png using Guid(f965acaf030bc408bb107241ad5d371b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c427859e098430ff703f8507a9b9ab9f') in 0.031588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Epic Toon FX/Textures/grab1.png
+  artifactKey: Guid(e34aefa49c9b2a34098ae5fbc657ede4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/grab1.png using Guid(e34aefa49c9b2a34098ae5fbc657ede4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eec2412ea68732736d56215c605aab7') in 0.032960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Button/Btn_OtherButton_SideButton01_Left.png
+  artifactKey: Guid(89bfafeec14b047a4ac5510b8751485d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Button/Btn_OtherButton_SideButton01_Left.png using Guid(89bfafeec14b047a4ac5510b8751485d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfe445d65e0cc62998a2944f2168dcd') in 0.033533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_BasicFrame_Circle01.png
+  artifactKey: Guid(535673d3292e04b449b63e2d699f99ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_BasicFrame_Circle01.png using Guid(535673d3292e04b449b63e2d699f99ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6b511a5c33d73d2e0b14a4cf539a21') in 0.032110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Character/Character_Sample11.png
+  artifactKey: Guid(b6975c3de651f42babaed097a5f3312b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Character/Character_Sample11.png using Guid(b6975c3de651f42babaed097a5f3312b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ab36eb593261b9bb5e4da551a3a23a') in 0.039627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Character/Character_Shadow01.png
+  artifactKey: Guid(a1096b8f57ae441c79e465d788fbf0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Character/Character_Shadow01.png using Guid(a1096b8f57ae441c79e465d788fbf0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad01a85dded8ec430c288e0f28d2c93') in 0.038723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_ListFrame01_00.png
+  artifactKey: Guid(9f3c50c022da640648ee29ee9ee7adf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_ListFrame01_00.png using Guid(9f3c50c022da640648ee29ee9ee7adf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ab77afddde97022a92f1b997dae83a') in 0.033475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Character/Character_Sample01_m.png
+  artifactKey: Guid(5d10c7ae0e6f94a4898417e1ea75a663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Character/Character_Sample01_m.png using Guid(5d10c7ae0e6f94a4898417e1ea75a663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3ad337e8e92c2e0f8ca4c8e0373981') in 0.040044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ImageIcon_Glod01_l_d.png
+  artifactKey: Guid(a1570f9e78ea547af91f28afa5335c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ImageIcon_Glod01_l_d.png using Guid(a1570f9e78ea547af91f28afa5335c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c7e14e96aab2f14401ed687de3d066') in 0.032599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ImageIcon_LevelFrame1.png
+  artifactKey: Guid(b4a4b8f5c2d49459891adf4008f22aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ImageIcon_LevelFrame1.png using Guid(b4a4b8f5c2d49459891adf4008f22aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cfae8679526b7b951efe1514c5deba') in 0.045029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Gem01_Green.Png
+  artifactKey: Guid(8b06dbfc926e74780a39e8a7d3b1edc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Gem01_Green.Png using Guid(8b06dbfc926e74780a39e8a7d3b1edc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee85185b67abf434259bc2422d468cf') in 0.036016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ImageIcon_Star01_s.png
+  artifactKey: Guid(d249acd8c8f234a4093464e66d8c92f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ImageIcon_Star01_s.png using Guid(d249acd8c8f234a4093464e66d8c92f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282d4fb82f90f124744b99cab7bd1904') in 0.039162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_ListFrame06_01_Blue.png
+  artifactKey: Guid(c277e9372b7194061bf622d873c42964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_ListFrame06_01_Blue.png using Guid(c277e9372b7194061bf622d873c42964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff83f37a565990a36bcd9585ff6a884') in 0.031577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_BasicFrame_Gradient01.png
+  artifactKey: Guid(7b6bed5126b974c5e8a38140a3812d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_BasicFrame_Gradient01.png using Guid(7b6bed5126b974c5e8a38140a3812d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61ea231643db6ebc086585050a2ae3a') in 0.039087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_ListFrame14_n_Purple.png
+  artifactKey: Guid(90f353797d755409781deecf54870f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_ListFrame14_n_Purple.png using Guid(90f353797d755409781deecf54870f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c170f6becf046af2cb572736b6f3ba2') in 0.040443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Character/Character_Sample14.png
+  artifactKey: Guid(cedea9cb0486e414d8ec8794ffb9846e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Character/Character_Sample14.png using Guid(cedea9cb0486e414d8ec8794ffb9846e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca81b334b644436b1cb6974ae2a494b') in 0.052899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_ListFrame12_Purple.png
+  artifactKey: Guid(44a9a5484ba3c4cc895dc425ccaea164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_ListFrame12_Purple.png using Guid(44a9a5484ba3c4cc895dc425ccaea164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7562995aee98e4c6a51cc90ad71a0ac') in 0.031339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_ItemFrame01_f.png
+  artifactKey: Guid(d2b5b74e034bb4321ba792a6e4f81e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_ItemFrame01_f.png using Guid(d2b5b74e034bb4321ba792a6e4f81e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013dff4c03f8a625acca3068e2d82286') in 0.036405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/Preview/_Component_1.png
+  artifactKey: Guid(3ed727598cd0547a7b3bdc48b44c435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/Preview/_Component_1.png using Guid(3ed727598cd0547a7b3bdc48b44c435f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce2880c72ffb81f9cbdacbf49a2103d') in 0.166043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_ListFrame13_n_Purple.png
+  artifactKey: Guid(72cf9608bf17a4510b03715a42431a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_ListFrame13_n_Purple.png using Guid(72cf9608bf17a4510b03715a42431a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec7984b7967c849db66f9b1d85d6d15') in 0.035663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_ItemFrame01_Color_Brown.png
+  artifactKey: Guid(dd77367546bf4433dbbb2317a935df54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_ItemFrame01_Color_Brown.png using Guid(dd77367546bf4433dbbb2317a935df54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44233e12fef0745ba32285b8b0050905') in 0.036072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Background/Background_01.png
+  artifactKey: Guid(140056dae9246407594757b8ec82f946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Background/Background_01.png using Guid(140056dae9246407594757b8ec82f946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2192840aecf4c186e1a62c9c35527b3b') in 0.224300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_ListFrame06_01_Green.png
+  artifactKey: Guid(46c193379f00e448fbe9b57ffa7a3cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Frame/Frame_ListFrame06_01_Green.png using Guid(46c193379f00e448fbe9b57ffa7a3cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91549d439678a85145340c7da94a61c4') in 0.035216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Button/Btn_OtherButton_Square01_Blue.png
+  artifactKey: Guid(0036322b5b88b4794b6e86458a3c81ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Component/Button/Btn_OtherButton_Square01_Blue.png using Guid(0036322b5b88b4794b6e86458a3c81ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b950cee63a54f9618386fcc03f811373') in 0.046124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Background/Background_08_1Left.png
+  artifactKey: Guid(71f80f23111114970abec67fe4ae800d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Background/Background_08_1Left.png using Guid(71f80f23111114970abec67fe4ae800d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfe38e129988446fa472d4bb26d3c84') in 0.084442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ChestIcon_Gold01_s.png
+  artifactKey: Guid(dad74013a0ec24e3ca38d2b98cfa5f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ChestIcon_Gold01_s.png using Guid(dad74013a0ec24e3ca38d2b98cfa5f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125c494a4d95f845460929afa7287aef') in 0.038183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ImageIcon_Ad_01_l.png
+  artifactKey: Guid(1b9a69ddb68bb4606aedc6798ba0c29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon/Icon_ImageIcon_Ad_01_l.png using Guid(1b9a69ddb68bb4606aedc6798ba0c29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a670764996efe8cd1e182c706f55f6') in 0.048000 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008888 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.82 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.919 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1920ms)
+		BeginReloadAssembly (292ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (171ms)
+		EndReloadAssembly (1515ms)
+			LoadAssemblies (351ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (420ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (614ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (336ms)
+				ProcessInitializeOnLoadMethodAttributes (109ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.91 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5328 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (7.1 MB). Loaded Objects now: 6160.
+Memory consumption went from 273.9 MB to 266.8 MB.
+Total: 7.084800 ms (FindLiveObjects: 0.510000 ms CreateObjectMapping: 0.183600 ms MarkObjects: 4.426000 ms  DeleteObjects: 1.963300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005742 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.87 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.397 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1398ms)
+		BeginReloadAssembly (187ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1106ms)
+			LoadAssemblies (154ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (529ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (101ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.68 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5328 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (7.1 MB). Loaded Objects now: 6163.
+Memory consumption went from 273.9 MB to 266.8 MB.
+Total: 8.080600 ms (FindLiveObjects: 0.779400 ms CreateObjectMapping: 0.250500 ms MarkObjects: 4.419400 ms  DeleteObjects: 2.629300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007625 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.31 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.272 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1272ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1052ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (530ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.33 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5328 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (7.1 MB). Loaded Objects now: 6166.
+Memory consumption went from 273.9 MB to 266.8 MB.
+Total: 8.010700 ms (FindLiveObjects: 0.622300 ms CreateObjectMapping: 0.232600 ms MarkObjects: 4.466800 ms  DeleteObjects: 2.687400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008067 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.09 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.329 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1331ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1107ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (326ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (539ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (281ms)
+				ProcessInitializeOnLoadMethodAttributes (112ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.66 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5328 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (7.1 MB). Loaded Objects now: 6169.
+Memory consumption went from 273.9 MB to 266.8 MB.
+Total: 8.373500 ms (FindLiveObjects: 0.819300 ms CreateObjectMapping: 0.205700 ms MarkObjects: 3.946500 ms  DeleteObjects: 3.399800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007302 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.89 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.287 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1288ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1043ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (520ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.11 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5328 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (7.1 MB). Loaded Objects now: 6172.
+Memory consumption went from 273.9 MB to 266.8 MB.
+Total: 5.537200 ms (FindLiveObjects: 0.460800 ms CreateObjectMapping: 0.169200 ms MarkObjects: 2.923800 ms  DeleteObjects: 1.982600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006644 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.276 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1277ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1050ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (307ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (527ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (281ms)
+				ProcessInitializeOnLoadMethodAttributes (99ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.97 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5328 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (7.1 MB). Loaded Objects now: 6175.
+Memory consumption went from 273.9 MB to 266.8 MB.
+Total: 7.894900 ms (FindLiveObjects: 0.521300 ms CreateObjectMapping: 0.327900 ms MarkObjects: 4.053600 ms  DeleteObjects: 2.990900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006942 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.29 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.236 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1237ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1001ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (502ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (266ms)
+				ProcessInitializeOnLoadMethodAttributes (96ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.48 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5328 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (7.1 MB). Loaded Objects now: 6178.
+Memory consumption went from 273.9 MB to 266.9 MB.
+Total: 9.786300 ms (FindLiveObjects: 0.774200 ms CreateObjectMapping: 0.311600 ms MarkObjects: 5.460700 ms  DeleteObjects: 3.236700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 749.208844 seconds.
+  path: Assets/LevelDatas/LevelPrefab/Level1.prefab
+  artifactKey: Guid(c6ea70e51c76ec84b99b2d077571f0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LevelDatas/LevelPrefab/Level1.prefab using Guid(c6ea70e51c76ec84b99b2d077571f0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6e1cab808fd6d85662462602f07373') in 0.322742 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006100 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.23 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.386 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1387ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (1089ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (521ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.89 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5328 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (7.1 MB). Loaded Objects now: 6185.
+Memory consumption went from 274.0 MB to 266.9 MB.
+Total: 7.879900 ms (FindLiveObjects: 0.969200 ms CreateObjectMapping: 0.525100 ms MarkObjects: 3.425000 ms  DeleteObjects: 2.958300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

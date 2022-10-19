@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0396c9c075e999442a319c215e834f90, type: 3}
+  m_Name: L9_Build Settings
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: cbfb1119423413e478356817b7967aa2, type: 2}
+  brickSize: 6
+  brickSizeRatio: 0.95
+  textureMap: {fileID: 2800000, guid: a47bf5096e3318942b3ce2f6f73c95ca, type: 3}
+  pixelStep: 1
