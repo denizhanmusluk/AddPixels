@@ -65,7 +65,23 @@ public class UpgradeManager : MonoBehaviour
         {
             clickAnimUpgradeButton.TextInitFull();
         }
-        brickMoneyText.text = "$" + (Globals.brickPerHit * Globals.coinPerBrick).ToString() + " / hit";
+        //brickMoneyText.text = "$" + (Globals.brickPerHit * Globals.coinPerBrick).ToString() + " / hit";
+
+
+        if ((Globals.brickPerHit * Globals.coinPerBrick) < 1000)
+        {
+            brickMoneyText.text = "$" + (Globals.brickPerHit * Globals.coinPerBrick).ToString() + " / hit";
+        }
+        else if ((Globals.brickPerHit * Globals.coinPerBrick) < 1000000)
+        {
+            brickMoneyText.text = "$" + ((Globals.brickPerHit * Globals.coinPerBrick) / 1000).ToString() + "." + (((Globals.brickPerHit * Globals.coinPerBrick) / 100) % 10).ToString() + "k" + " / hit";
+        }
+        else
+        {
+            brickMoneyText.text = "$" + ((Globals.brickPerHit * Globals.coinPerBrick) / 1000000).ToString() + "." + (((Globals.brickPerHit * Globals.coinPerBrick) / 100000) % 10).ToString() + "m" + " / hit";
+        }
+
+
         MultiplierImageSet();
     }
     public void BrickUpgradeButton()

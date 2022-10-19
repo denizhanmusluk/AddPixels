@@ -16,9 +16,13 @@ public class UpgradeButton : MonoBehaviour
         {
             costText.text = "$" + cost.ToString();
         }
-        else
+        else if(cost <1000000)
         {
             costText.text = "$" + (cost / 1000).ToString() + "." + ((cost / 100) % 10).ToString() + "k";
+        }
+        else
+        {
+            costText.text = "$" + (cost / 1000000).ToString() + "." + ((cost / 100000) % 10).ToString() + "m";
         }
 
     }

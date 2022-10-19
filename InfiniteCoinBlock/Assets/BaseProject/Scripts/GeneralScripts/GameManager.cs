@@ -41,9 +41,13 @@ public class GameManager : Observer
         {
             ui.inGameScoreText.text = Globals.moneyAmount.ToString();
         }
-        else
+        else if(Globals.moneyAmount < 1000000)
         {
             ui.inGameScoreText.text = ((int)Globals.moneyAmount / 1000).ToString() + "." + (((int)Globals.moneyAmount / 100) % 10).ToString() + "k";
+        }
+        else
+        {
+            ui.inGameScoreText.text = ((int)Globals.moneyAmount / 1000000).ToString() + "." + (((int)Globals.moneyAmount / 100000) % 10).ToString() + "m";
         }
         ui.startCanvas.SetActive(true);
         ui.finishCanvas.SetActive(false);

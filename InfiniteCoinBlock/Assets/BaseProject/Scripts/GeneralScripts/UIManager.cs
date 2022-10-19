@@ -133,9 +133,13 @@ public class UIManager : Subject
             {
                 inGameScoreText.text = ((int)money).ToString();
             }
-            else
+            else if(Globals.moneyAmount < 1000000)
             {
                 inGameScoreText.text = ((int)money / 1000).ToString() + "." + (((int)money / 100) % 10).ToString() + "k";
+            }
+            else
+            {
+                inGameScoreText.text = ((int)money / 1000000).ToString() + "." + (((int)money / 100000) % 10).ToString() + "m";
             }
             yield return null;
         }
@@ -143,9 +147,15 @@ public class UIManager : Subject
         {
             inGameScoreText.text = ((int)Globals.moneyAmount).ToString();
         }
-        else
+        else if (Globals.moneyAmount < 1000000)
+
         {
             inGameScoreText.text = ((int)Globals.moneyAmount / 1000).ToString() + "." + (((int)Globals.moneyAmount / 100) % 10).ToString() + "k";
+        }
+        else
+        {
+            inGameScoreText.text = ((int)Globals.moneyAmount / 1000000).ToString() + "." + (((int)Globals.moneyAmount / 100000) % 10).ToString() + "m";
+
         }
     }
     public Tween DoGetValueScale(Transform tr, bool active, float value, float lastValue, float duration, DG.Tweening.Ease type)
