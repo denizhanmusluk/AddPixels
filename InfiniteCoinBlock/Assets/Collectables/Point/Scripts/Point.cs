@@ -5,7 +5,7 @@ using TMPro;
 public class Point : MonoBehaviour
 {
     [Range(0, 1)] [SerializeField] int alpha;
-    [Range(0, 100)] [SerializeField] float UpwardSpeed;
+    [Range(0, 400)] [SerializeField] float UpwardSpeed;
     [Range(0, 4)] [SerializeField] float SimulationSpeed;
     float speedFactor;
     public TextMeshProUGUI PointText;

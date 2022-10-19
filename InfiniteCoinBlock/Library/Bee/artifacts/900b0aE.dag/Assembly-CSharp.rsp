@@ -449,6 +449,7 @@
 "Assets/Character/ClickerControl.cs"
 "Assets/Character/PlayerHealth.cs"
 "Assets/Collectables/Point/Scripts/Point.cs"
+"Assets/Creative/CubeScaler.cs"
 "Assets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs"
 "Assets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs"
 "Assets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs"

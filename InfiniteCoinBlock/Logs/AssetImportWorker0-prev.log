@@ -15,7 +15,7 @@ C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51040
+65357
 Successfully changed project path to: C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock
 C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/GitHub/InfiniteCoinBlock/InfiniteCoinBlock
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 182.05 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 143.85 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,97 +63,97 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009126 seconds.
+Registered in 0.006763 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 191.44 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 136.80 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.014 seconds
+- Completed reload, in  0.740 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1015ms)
-		BeginReloadAssembly (165ms)
+	ReloadAssembly (741ms)
+		BeginReloadAssembly (111ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (714ms)
-			LoadAssemblies (159ms)
-			RebuildTransferFunctionScriptingTraits (2ms)
-			SetupTypeCache (127ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (532ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (102ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (478ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (347ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (83ms)
+				InitializePlatformSupportModulesInManaged (65ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (192ms)
+				RefreshPlugins (137ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (142ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.026811 seconds.
+Registered in 0.027191 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 156.98 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 155.15 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.237 seconds
+- Completed reload, in  2.012 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2238ms)
-		BeginReloadAssembly (310ms)
+	ReloadAssembly (2012ms)
+		BeginReloadAssembly (237ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (152ms)
-		EndReloadAssembly (1793ms)
-			LoadAssemblies (272ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (1659ms)
+			LoadAssemblies (175ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (405ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (89ms)
-			SetupLoadedEditorAssemblies (1007ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (1034ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
+				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (157ms)
-				BeforeProcessingInitializeOnLoad (137ms)
-				ProcessInitializeOnLoadAttributes (573ms)
-				ProcessInitializeOnLoadMethodAttributes (108ms)
+				RefreshPlugins (155ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (637ms)
+				ProcessInitializeOnLoadMethodAttributes (102ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.94 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.87 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5504 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 58 unused Assets / (7.1 MB). Loaded Objects now: 5950.
 Memory consumption went from 283.8 MB to 276.7 MB.
-Total: 6.515700 ms (FindLiveObjects: 0.595300 ms CreateObjectMapping: 0.183300 ms MarkObjects: 3.653600 ms  DeleteObjects: 2.082300 ms)
+Total: 10.524200 ms (FindLiveObjects: 0.832600 ms CreateObjectMapping: 0.437300 ms MarkObjects: 6.019800 ms  DeleteObjects: 3.232200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,66 +168,197 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 634785.450301 seconds.
-  path: Assets/LevelDatas/Levels/Level_1.asset
-  artifactKey: Guid(bb7ebef1c636c1649adb0e4b8df2af31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LevelDatas/Levels/Level_1.asset using Guid(bb7ebef1c636c1649adb0e4b8df2af31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4318bfe3c2138717009d60b56c1230') in 0.047591 seconds 
+  Time since last request: 676996.921271 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Gem03_Diamond_Blue.Png
+  artifactKey: Guid(1230a91a23d0849128d2f8c63b5996fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Icon_ItemIcons(Original)/Icon_Gem03_Diamond_Blue.Png using Guid(1230a91a23d0849128d2f8c63b5996fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec9efdcb13a46d60787a7537bec1819') in 0.190370 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.687471 seconds.
-  path: Assets/BaseProject/Prefabs/Levels/Capsule.prefab
-  artifactKey: Guid(8a01251cf9c8b56409e00d7c1160fcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BaseProject/Prefabs/Levels/Capsule.prefab using Guid(8a01251cf9c8b56409e00d7c1160fcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc1ef48b31bf29a89d539ba3d05c532') in 0.098295 seconds 
+  Time since last request: 0.000037 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Image/Common_Glow_Circle_White.png
+  artifactKey: Guid(65df51e6b7a624cbeb6ee5ca56875e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Image/Common_Glow_Circle_White.png using Guid(65df51e6b7a624cbeb6ee5ca56875e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff951761726d779bf8d8c00c548430d') in 0.166897 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.833929 seconds.
-  path: Assets/BaseProject/Prefabs/Levels/Cube.prefab
-  artifactKey: Guid(b419ddcc85d03934d868c62c7740fd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BaseProject/Prefabs/Levels/Cube.prefab using Guid(b419ddcc85d03934d868c62c7740fd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8af52ee762488ea50f767fed91f4c8') in 0.014468 seconds 
+  Time since last request: 0.000059 seconds.
+  path: Assets/Epic Toon FX/Textures/moneybills.png
+  artifactKey: Guid(4de7f1f3f8cb1ad479958ba9d3f8b44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/moneybills.png using Guid(4de7f1f3f8cb1ad479958ba9d3f8b44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8659fc1a299dcde3564d1d4acef0744e') in 0.041768 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/BaseProject/Prefabs/Levels/Sphere.prefab
-  artifactKey: Guid(baf5199a88a56d04bb61e85628596745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BaseProject/Prefabs/Levels/Sphere.prefab using Guid(baf5199a88a56d04bb61e85628596745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2f09dce1445f3b0fb85a8321936362') in 0.014625 seconds 
+  Time since last request: 0.000068 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Image/Common_White_Oval.png
+  artifactKey: Guid(3b8d65f49dd4f491793fefc48da099f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Image/Common_White_Oval.png using Guid(3b8d65f49dd4f491793fefc48da099f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c81c5ba85ac9345bdcb34bf00453cf') in 0.035739 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007001 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\GitHub\InfiniteCoinBlock\InfiniteCoinBlock\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 2.44 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.306 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1307ms)
-		BeginReloadAssembly (168ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (59ms)
-		EndReloadAssembly (1038ms)
-			LoadAssemblies (124ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (323ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (493ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (268ms)
-				ProcessInitializeOnLoadMethodAttributes (90ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Money/Bills/DollarbillFountain.prefab
+  artifactKey: Guid(67fe2ef032cc2cd448054758131542f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Money/Bills/DollarbillFountain.prefab using Guid(67fe2ef032cc2cd448054758131542f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafb5b535d0a818ae575cf046b3760ad') in 0.066972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Epic Toon FX/Prefabs/Interactive/Money/Bills/DollarbillShower.prefab
+  artifactKey: Guid(2f01cf02202bd2b4aa89a8c48b767387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Prefabs/Interactive/Money/Bills/DollarbillShower.prefab using Guid(2f01cf02202bd2b4aa89a8c48b767387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912d5d8ba3a02938fd0f950cd2dd7d64') in 0.030633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Image/Common_Golw_White.png
+  artifactKey: Guid(8e29b5fe7ce3149e8aae1ee7b88d87b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Image/Common_Golw_White.png using Guid(8e29b5fe7ce3149e8aae1ee7b88d87b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfe0696d51318bd28ba78478b927dbc') in 0.034580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Image/Common_White_Box.png
+  artifactKey: Guid(75bcd0b7eff514a1b963792ac5ce380c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BaseProject/GUI PRO Kit - Casual Game/ResourcesData/Sprite/Demo/Demo_Image/Common_White_Box.png using Guid(75bcd0b7eff514a1b963792ac5ce380c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9b06eb762138a7c68dd95d663a6c73') in 0.025380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.358771 seconds.
+  path: Assets/Epic Toon FX/Textures/heart2broken_blue.png
+  artifactKey: Guid(6af7d0347ed19854093dbe2c1d1ead17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/heart2broken_blue.png using Guid(6af7d0347ed19854093dbe2c1d1ead17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5079605ad7b4602cb35a94afdae184') in 0.045907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Epic Toon FX/Textures/nova_6x3_spritesheet.png
+  artifactKey: Guid(475f6ff71f9b21a4bb2cb3bda7f812a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/nova_6x3_spritesheet.png using Guid(475f6ff71f9b21a4bb2cb3bda7f812a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282b9f64d574f81014cf2eef5bf5ac58') in 0.205323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Epic Toon FX/Textures/leaf_3x3.png
+  artifactKey: Guid(08e6b69f364619d45ae70fde7386a155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/leaf_3x3.png using Guid(08e6b69f364619d45ae70fde7386a155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734e9d2f601eb5b46c036f6eabc5dd87') in 0.032643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Epic Toon FX/Textures/magic_line.png
+  artifactKey: Guid(64f13eb4d14d52f45a75c9e741dbbf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/magic_line.png using Guid(64f13eb4d14d52f45a75c9e741dbbf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c44fbd12eeab0606248bffd2d320fa1') in 0.039537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Epic Toon FX/Textures/line_sharp.png
+  artifactKey: Guid(7d59ae2be6260054db426fe96a2f217d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/line_sharp.png using Guid(7d59ae2be6260054db426fe96a2f217d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179a3a70eb28698a2d66eb6a0a594a4a') in 0.047371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Epic Toon FX/Textures/magic_orb.png
+  artifactKey: Guid(1b2970a114ab1614d99a18ce46d4f458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/magic_orb.png using Guid(1b2970a114ab1614d99a18ce46d4f458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152d408df40f2219ee098364d7f65e31') in 0.034204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Epic Toon FX/Textures/lightning_spritesheet_3x3.png
+  artifactKey: Guid(c18d1a1e5915b68408b0fa5b5d8b91e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/lightning_spritesheet_3x3.png using Guid(c18d1a1e5915b68408b0fa5b5d8b91e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3678aeb160a756486dd3d913f2e482') in 0.080134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Epic Toon FX/Textures/numbers.png
+  artifactKey: Guid(269b3a6f2e8b4cb488f349fd6324c484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/numbers.png using Guid(269b3a6f2e8b4cb488f349fd6324c484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180b61f4db436412fcab35855686b20d') in 0.028611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Epic Toon FX/Textures/magic_blast.png
+  artifactKey: Guid(41ceebca876e4d84bb86b6852a496184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/magic_blast.png using Guid(41ceebca876e4d84bb86b6852a496184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e6c49ecc0f2a1796480515012cd3ed') in 0.038065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Epic Toon FX/Textures/portal_stripes_blue.png
+  artifactKey: Guid(aeff4b420fe6391408de71cc5ac46f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/portal_stripes_blue.png using Guid(aeff4b420fe6391408de71cc5ac46f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f785263c59fa11df04cd45b1c37114') in 0.054940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Epic Toon FX/Textures/lightning_improved_3x3.png
+  artifactKey: Guid(2e1e6bccba87a3945b5e918a91f1616f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/lightning_improved_3x3.png using Guid(2e1e6bccba87a3945b5e918a91f1616f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2d88c5445de9595e383c9e22edf3b9') in 0.049641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.520442 seconds.
+  path: Assets/Epic Toon FX/Textures/skull3.png
+  artifactKey: Guid(ebd9ac46f0a6811498a4195ac10fcfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/skull3.png using Guid(ebd9ac46f0a6811498a4195ac10fcfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032850aa72f851f50d31593bbb5e27d8') in 0.031945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Epic Toon FX/Textures/slash.png
+  artifactKey: Guid(ad2eaf8182c154b40a086d794c8d8ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/slash.png using Guid(ad2eaf8182c154b40a086d794c8d8ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f70fd242d920fa47e1ada279275ffd') in 0.055782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Epic Toon FX/Textures/snowflake.png
+  artifactKey: Guid(7a5dd798dffc8604fbac6d07059eadd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/snowflake.png using Guid(7a5dd798dffc8604fbac6d07059eadd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e992a75ef20558141b9b042a0b8881ab') in 0.033362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Epic Toon FX/Textures/slash03.png
+  artifactKey: Guid(0db0d2c7ee689544ab71a3a24818a71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/slash03.png using Guid(0db0d2c7ee689544ab71a3a24818a71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6dc398ae19760ec107e7a94ba166b15') in 0.046507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Epic Toon FX/Textures/sparkle2.png
+  artifactKey: Guid(81c2794b522bc6a4fa81c3ad4900b9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/sparkle2.png using Guid(81c2794b522bc6a4fa81c3ad4900b9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822ad2ef05dcff73d5835b4ead4bdaa6') in 0.034108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.228763 seconds.
+  path: Assets/Epic Toon FX/Textures/splat01_animated_3x3.png
+  artifactKey: Guid(3ba0179ad6e513e4e9a0ebe65a28009d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/splat01_animated_3x3.png using Guid(3ba0179ad6e513e4e9a0ebe65a28009d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30def08d8dbb254ba79b80005ac99c8') in 0.042588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Epic Toon FX/Textures/talkbubble_4x4.png
+  artifactKey: Guid(ac9db00e0b370a046bac7cdcd0128e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/talkbubble_4x4.png using Guid(ac9db00e0b370a046bac7cdcd0128e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553eaf060882eefc1db9291c4ff79d66') in 0.099087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Epic Toon FX/Textures/star_outlined.png
+  artifactKey: Guid(d3d621814611af44e94006bb9cc2b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/star_outlined.png using Guid(d3d621814611af44e94006bb9cc2b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efd51df6e2399b3ecf0118e37fa192d') in 0.033308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Epic Toon FX/Textures/star_outlined_colored.png
+  artifactKey: Guid(a4e52c23f174acd4fbf8b0b3b6042219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/star_outlined_colored.png using Guid(a4e52c23f174acd4fbf8b0b3b6042219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73132d1ba397fcbeaccbe9d0c746378') in 0.022891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.378047 seconds.
+  path: Assets/Epic Toon FX/Textures/triangle_curve.png
+  artifactKey: Guid(28cf82738e24d8446a1c95a26d2815ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/triangle_curve.png using Guid(28cf82738e24d8446a1c95a26d2815ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c8bd96608b2fa0128b325c4e2c3203') in 0.036709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Epic Toon FX/Textures/wave.png
+  artifactKey: Guid(8226872b438e7324ab822708db4923e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/wave.png using Guid(8226872b438e7324ab822708db4923e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b742990606b6097804524f78abd6dd') in 0.031588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Epic Toon FX/Textures/wave3.png
+  artifactKey: Guid(909a245172e987b429ea32e22c65512e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/wave3.png using Guid(909a245172e987b429ea32e22c65512e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ceba5dfb746af32dbd7a4b9b914ff8') in 0.039261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.724367 seconds.
+  path: Assets/Epic Toon FX/Textures/healing.png
+  artifactKey: Guid(19c07081c56f4864eb8559155de5e29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/healing.png using Guid(19c07081c56f4864eb8559155de5e29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18cacbb9b3968462f436bb8a3b1a05f2') in 0.026240 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
