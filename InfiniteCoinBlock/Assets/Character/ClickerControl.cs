@@ -18,12 +18,14 @@ public class ClickerControl : Observer
     //float clickAnimSpeed = 2f;
     float currentAnimSpeed;
     bool speedyActive = false;
+    [SerializeField] ParticleSystem finalConfetti;
     private void Awake()
     {
         _instance = this;
     }
     void Start()
     {
+        finalConfetti.Stop();
         _playerHealth = GetComponent<PlayerHealth>();
         //staminaSlider
         currentAnimSpeed = defaultAnimSpeed;
@@ -67,6 +69,7 @@ public class ClickerControl : Observer
 
     void WinState()
     {
+        finalConfetti.Play();
         VibratoManager.Instance.LongHeavyViration();
         anim.SetTrigger("win");
         PlayerPrefs.SetInt("BrickUpgradeLevel", 0);

@@ -147,7 +147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alpha: 1
-  UpwardSpeed: 100
+  UpwardSpeed: 400
   SimulationSpeed: 1
   PointText: {fileID: 2771038119144825816}
 --- !u!1 &2771038119144825818

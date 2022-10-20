@@ -35,7 +35,7 @@ public class Point : MonoBehaviour
             counter += speedFactor * SimulationSpeed * Time.deltaTime;
             spd = Mathf.Cos(counter);
             spd *= UpwardSpeed * velocityFactor;
-            transform.position = Vector3.MoveTowards(transform.position, transform.position + new Vector3(0, 1, 0), Time.deltaTime * spd);
+            transform.position = Vector3.MoveTowards(transform.position, transform.position + new Vector3(0, velocityFactor, 0), Time.deltaTime * spd);
 
             yield return null;
         }
