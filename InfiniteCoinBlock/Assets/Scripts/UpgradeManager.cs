@@ -13,7 +13,7 @@ public class UpgradeManager : MonoBehaviour
     [SerializeField] UpgradeButton brickUpgradeButton;
     [SerializeField] UpgradeButton staminaUpgradeButton;
     [SerializeField] UpgradeButton clickAnimUpgradeButton;
-    [SerializeField] TextMeshProUGUI brickMoneyText;
+    [SerializeField] public TextMeshProUGUI brickMoneyText;
     [SerializeField] Transform brickUpgradeImageParent;
     //int brickUpgrade_Level;
     //int staminaUpgrade_Level;

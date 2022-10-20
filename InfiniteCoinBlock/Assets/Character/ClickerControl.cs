@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using ObserverSystem;
+using DG.Tweening;
 
 public class ClickerControl : Observer
 {
@@ -19,6 +20,8 @@ public class ClickerControl : Observer
     float currentAnimSpeed;
     bool speedyActive = false;
     [SerializeField] ParticleSystem finalConfetti;
+    float tempSpeed;
+
     private void Awake()
     {
         _instance = this;
@@ -29,6 +32,7 @@ public class ClickerControl : Observer
         _playerHealth = GetComponent<PlayerHealth>();
         //staminaSlider
         currentAnimSpeed = defaultAnimSpeed;
+        tempSpeed = defaultAnimSpeed;
         anim.SetFloat("JumpSpeed", currentAnimSpeed);
         Globals.currrentAnimSpeed = currentAnimSpeed;
         ObserverManager.Instance.RegisterObserver(this, SubjectType.GameState);
@@ -91,7 +95,7 @@ public class ClickerControl : Observer
         currentAnimSpeed = Globals.clickAnimSpeed;
         anim.SetFloat("JumpSpeed", currentAnimSpeed);
         Globals.currrentAnimSpeed = currentAnimSpeed;
-
+        
         _playerHealth.HealthDownStart();
 
         click = true;
@@ -108,10 +112,10 @@ public class ClickerControl : Observer
             currentAnimSpeed = defaultAnimSpeed;
             anim.SetFloat("JumpSpeed", currentAnimSpeed);
             Globals.currrentAnimSpeed = currentAnimSpeed;
+        //DoGetValueScale(UpgradeManager.Instance.brickMoneyText.transform, true, 0.75f, 1, 0.5f, Ease.OutElastic);
             _playerHealth.CoolDownStart();
         }
     }
-
     public void HitBrick()
     {
         UpgradeManager.Instance.CoinPerSecondView();
@@ -125,6 +129,11 @@ public class ClickerControl : Observer
         }
         StartCoroutine(MultiHit());
         brick.HitBrick();
+        if (Globals.currrentAnimSpeed != tempSpeed)
+        {
+            DoGetValueScale(UpgradeManager.Instance.brickMoneyText.transform, true, 0.75f, 1, 0.5f, Ease.OutElastic);
+        }
+        tempSpeed = Globals.currrentAnimSpeed;
     }
     IEnumerator MultiHit()
     {
@@ -137,5 +146,16 @@ public class ClickerControl : Observer
             Globals.buildActive = true;
             yield return new WaitForSeconds((float)currentAnimSpeed / (5 * Globals.brickPerHit));
         }
+    }
+
+    public Tween DoGetValueScale(Transform tr, bool active, float value, float lastValue, float duration, DG.Tweening.Ease type)
+    {
+        //Vector3 firstScale = tr.localScale;
+        Tween tween = DOTween.To
+            (() => value, x => value = x, lastValue, duration).SetEase(type).OnUpdate(delegate ()
+            {
+                tr.localScale = Vector3.one * value;
+            });
+        return tween;
     }
 }
