@@ -68,21 +68,26 @@ public class UpgradeManager : MonoBehaviour
         //brickMoneyText.text = "$" + (Globals.brickPerHit * Globals.coinPerBrick).ToString() + " / hit";
 
 
-        if ((Globals.brickPerHit * Globals.coinPerBrick) < 1000)
+        CoinPerSecondView();
+
+        MultiplierImageSet();
+    }
+    public void CoinPerSecondView()
+    {
+        float totalCoin = ((float)Globals.brickPerHit * (float)Globals.coinPerBrick * (float)Globals.currrentAnimSpeed * (1f / 0.6f));
+        Debug.Log("totalCoin  " + totalCoin);
+        if (((int)totalCoin) < 1000)
         {
-            brickMoneyText.text = "$" + (Globals.brickPerHit * Globals.coinPerBrick).ToString() + " / hit";
+            brickMoneyText.text = "$" + ((int)totalCoin).ToString() + " / sec";
         }
-        else if ((Globals.brickPerHit * Globals.coinPerBrick) < 1000000)
+        else if (((int)totalCoin) < 1000000)
         {
-            brickMoneyText.text = "$" + ((Globals.brickPerHit * Globals.coinPerBrick) / 1000).ToString() + "." + (((Globals.brickPerHit * Globals.coinPerBrick) / 100) % 10).ToString() + "k" + " / hit";
+            brickMoneyText.text = "$" + (((int)totalCoin) / 1000).ToString() + "." + ((((int)totalCoin) / 100) % 10).ToString() + "k" + " / sec";
         }
         else
         {
-            brickMoneyText.text = "$" + ((Globals.brickPerHit * Globals.coinPerBrick) / 1000000).ToString() + "." + (((Globals.brickPerHit * Globals.coinPerBrick) / 100000) % 10).ToString() + "m" + " / hit";
+            brickMoneyText.text = "$" + (((int)totalCoin) / 1000000).ToString() + "." + ((((int)totalCoin) / 100000) % 10).ToString() + "m" + " / sec";
         }
-
-
-        MultiplierImageSet();
     }
     public void BrickUpgradeButton()
     {

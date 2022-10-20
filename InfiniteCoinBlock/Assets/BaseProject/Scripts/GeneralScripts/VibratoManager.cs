@@ -44,6 +44,10 @@ public class VibratoManager : MonoBehaviour
             StartCoroutine(heavyVibratoActivator());
         }
     }
+    public void LongHeavyViration()
+    {
+        StartCoroutine(LongHeavyVibratoActivator());
+    }
     IEnumerator lightVibratoActivator()
     {
         if (lightVibratoActive)
@@ -71,4 +75,21 @@ public class VibratoManager : MonoBehaviour
             heavyVibratoActive = true;
         }
     }
+    IEnumerator LongHeavyVibratoActivator()
+    {
+        float counter = 0;
+        while(counter < 2f)
+        {
+            counter += Time.deltaTime;
+            if (heavyVibratoActive)
+            {
+                TapticManager.Impact(ImpactFeedback.Heavy);
+                Debug.Log("HeavyViration");
+                StartCoroutine(heavyVibratoActivator());
+            }
+
+            yield return null;
+        }
+    }
+
 }

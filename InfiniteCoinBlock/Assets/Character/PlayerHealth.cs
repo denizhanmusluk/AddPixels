@@ -14,7 +14,7 @@ public class PlayerHealth : MonoBehaviour
 
 	[SerializeField] Color maxHealthColor, middleHealthColor, minHealthColor;
 
-	bool fillActive = false;
+	public bool fillActive = false;
 	[SerializeField] float coolDownSpeed = 10;// Upgradeable
 	//[SerializeField] float healthDownSpeed = 10;// Upgradeable
 	public bool fallActive = false;
@@ -98,6 +98,8 @@ public class PlayerHealth : MonoBehaviour
 	}
 	IEnumerator Falling()
     {
+		VibratoManager.Instance.HeavyViration();
+
 		StartCoroutine(CoolDown2(35));
 		fallActive = true;
 		_clickerControl.anim.SetTrigger("Fall");

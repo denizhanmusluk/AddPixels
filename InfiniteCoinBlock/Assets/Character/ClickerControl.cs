@@ -17,6 +17,7 @@ public class ClickerControl : Observer
    [SerializeField] float defaultAnimSpeed = 1f;
     //float clickAnimSpeed = 2f;
     float currentAnimSpeed;
+    bool speedyActive = false;
     private void Awake()
     {
         _instance = this;
@@ -66,6 +67,7 @@ public class ClickerControl : Observer
 
     void WinState()
     {
+        VibratoManager.Instance.LongHeavyViration();
         anim.SetTrigger("win");
         PlayerPrefs.SetInt("BrickUpgradeLevel", 0);
         PlayerPrefs.SetInt("StaminaUpgradeLevel", 0);
@@ -80,6 +82,7 @@ public class ClickerControl : Observer
     }
     IEnumerator Accelerator()
     {
+        speedyActive = true;
         click = false;
         yield return null;
         currentAnimSpeed = Globals.clickAnimSpeed;
@@ -98,6 +101,7 @@ public class ClickerControl : Observer
         }
         if (click)
         {
+            speedyActive = false;
             currentAnimSpeed = defaultAnimSpeed;
             anim.SetFloat("JumpSpeed", currentAnimSpeed);
             Globals.currrentAnimSpeed = currentAnimSpeed;
@@ -107,6 +111,15 @@ public class ClickerControl : Observer
 
     public void HitBrick()
     {
+        UpgradeManager.Instance.CoinPerSecondView();
+        if (speedyActive)
+        {
+            VibratoManager.Instance.MediumViration();
+        }
+        else
+        {
+            VibratoManager.Instance.LightViration();
+        }
         StartCoroutine(MultiHit());
         brick.HitBrick();
     }
