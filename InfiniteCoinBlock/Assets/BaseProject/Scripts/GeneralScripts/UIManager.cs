@@ -16,6 +16,8 @@ public class UIManager : Subject
     public GameObject finishCanvas;
     public GameObject failCanvas;
     public GameObject pauseMenu;
+    public GameObject sliderPanel;
+    public GameObject UpgradePanel;
 
 
     //[Header("In Game")]
@@ -171,5 +173,8 @@ public class UIManager : Subject
     public void WinLevel()
     {
         Notify(NotificationType.Win);
+        ingameCanvas.SetActive(false);
+        UpgradePanel.SetActive(false);
+        sliderPanel.SetActive(false);
     }
 }

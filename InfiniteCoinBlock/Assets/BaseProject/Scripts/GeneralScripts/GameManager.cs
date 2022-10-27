@@ -108,13 +108,18 @@ public class GameManager : Observer
         //    Notify_LoseObservers();
         //}
 
-        if (Input.GetKeyDown(KeyCode.M))
+        if (Input.GetKeyDown(KeyCode.K))
         {
             MoneyUpdate(1000);
+        }
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            MoneyUpdate(1000000);
         }
     }
     public void StartState()
     {
+        Globals.StartActive = true;
     }
     public void FinalState()
     {

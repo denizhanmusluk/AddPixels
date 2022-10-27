@@ -15,5 +15,5 @@ MonoBehaviour:
   material: {fileID: 2100000, guid: cbfb1119423413e478356817b7967aa2, type: 2}
   brickSize: 6
   brickSizeRatio: 0.95
-  textureMap: {fileID: 2800000, guid: ac7fb7fc9e2162841af552a48a09f33d, type: 3}
+  textureMap: {fileID: 2800000, guid: a0d776f5384945648859e7bad2bfd4eb, type: 3}
   pixelStep: 1

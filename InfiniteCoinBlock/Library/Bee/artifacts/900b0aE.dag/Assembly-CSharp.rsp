@@ -473,6 +473,9 @@
 "Assets/Scripts/CameraManager.cs"
 "Assets/Scripts/UpgradeButton.cs"
 "Assets/Scripts/UpgradeManager.cs"
+"Assets/TutorialPrefab/TapTutorial.cs"
+"Assets/TutorialPrefab/tutorial.cs"
+"Assets/TutorialPrefab/TutorialManager.cs"
 "Assets/VerticalGradientRange/Demo/gradient_DemoControls.cs"
 "Assets/VerticalGradientRange/scripts/UpdateBarRanges.cs"
 -langversion:9.0

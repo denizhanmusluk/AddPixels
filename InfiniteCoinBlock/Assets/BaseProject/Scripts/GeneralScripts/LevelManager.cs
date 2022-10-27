@@ -54,5 +54,6 @@ public class LevelManager : MonoBehaviour
 
         Debug.Log("level " + Globals.currentLevel);
         Debug.Log("LEVEL " + PlayerPrefs.GetInt("levelIndex"));
+        Debug.Log(PlayerPrefs.GetInt("level"));
     }
 }

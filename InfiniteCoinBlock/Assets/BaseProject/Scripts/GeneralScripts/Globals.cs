@@ -23,4 +23,6 @@ public static class Globals
     public static int brickLevel = 0;
     public static int staminaLevel = 0;
     public static int clickAnimLevel = 0;
+
+    public static bool StartActive = false;
 }

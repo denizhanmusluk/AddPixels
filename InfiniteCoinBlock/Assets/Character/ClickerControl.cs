@@ -69,6 +69,7 @@ public class ClickerControl : Observer
     {
         anim.SetTrigger("Jump");
         _builder.BuildStart();
+        TutorialManager.Instance.TapPlayOpen();
     }
 
     void WinState()
@@ -85,6 +86,7 @@ public class ClickerControl : Observer
         if (!_playerHealth.fallActive)
         {
             StartCoroutine(Accelerator());
+            TutorialManager.Instance.TapPlayClose();
         }
     }
     IEnumerator Accelerator()

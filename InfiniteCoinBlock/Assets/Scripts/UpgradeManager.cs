@@ -133,6 +133,7 @@ public class UpgradeManager : MonoBehaviour
         if (Globals.brickLevel < upgradeSettings._brickUpgradeCost.Length - 1 && Globals.moneyAmount >= upgradeSettings._brickUpgradeCost[Globals.brickLevel + 1])
         {
             brickUpgradeButton.GetComponent<Button>().interactable = true;
+            TutorialManager.Instance.Tutorial_2_Open();
         }
         else
         {
@@ -143,6 +144,7 @@ public class UpgradeManager : MonoBehaviour
         if (Globals.staminaLevel < upgradeSettings._staminaUpgradeCost.Length - 1 && Globals.moneyAmount >= upgradeSettings._staminaUpgradeCost[Globals.staminaLevel + 1])
         {
             staminaUpgradeButton.GetComponent<Button>().interactable = true;
+            TutorialManager.Instance.Tutorial_1_Open();
         }
         else
         {
@@ -153,6 +155,7 @@ public class UpgradeManager : MonoBehaviour
         if (Globals.clickAnimLevel < upgradeSettings._clickAnimUpgradeCost.Length - 1 && Globals.moneyAmount >= upgradeSettings._clickAnimUpgradeCost[Globals.clickAnimLevel + 1])
         {
             clickAnimUpgradeButton.GetComponent<Button>().interactable = true;
+            TutorialManager.Instance.Tutorial_3_Open();
         }
         else
         {
