@@ -13,6 +13,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 0
+--- !u!114 &-3009137170960622664
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -33,6 +46,42 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_128f932a183644e3870be307e0327d6f:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_1ca17f7048bf4761baa1ef9a2560c2b7:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_1eeb2d7883614a94b31c2b0447fa5c33:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_50bb4e0adf1843d7a7aa189109ebef94:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_5485c4caad8941bc8ff1d3a9ec2d2f1e:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_5578a548152e45c9bf3f8765520a4ecb:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_6397f24c73144a2697ebaa5ce9d15a1a:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_6ecbdae0f26f469fb136e95168a35aff:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_e4711d0ef81f4f19ba22df4173e40d29:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -57,7 +106,23 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ExtraTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask3:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -97,6 +162,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SubsurfaceTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -113,33 +182,58 @@ Material:
     m_Floats:
     - Vector1_145db2671fc244c5906c222f18fbb77f: 7.69
     - Vector1_336172895a0c4c83bea4131b56147141: -67.3
+    - Vector1_4acd8decccee4ccdb626cbff7b3e5d1f: 0.3
+    - Vector1_6e17ae7e18aa4cd8935336d87355d0ba: 1
+    - Vector1_75f72e32f2464ec38b78bc783e01d466: 0
     - Vector1_8ac5df4a150b472fb8cdb5ec947f35e1: 1
     - Vector1_8f5aa89b43ab4a74b8793b8e3f35daa2: -5.1
+    - Vector1_9379cf0eb85d4d0babad0343faf4f662: 0
+    - Vector1_9677064bbda4472aa25f48ae73f1d70a: -1
     - Vector1_9d657292b65b452b902294e93d53442d: 0
-    - Vector1_a3c1d66bdf92460b9ceb4fb307afeab8: 1
+    - Vector1_a3c1d66bdf92460b9ceb4fb307afeab8: 0
+    - Vector1_ac80175c2aa4436ba71c69250643a874: 1
+    - Vector1_ad73501cc79c432188a4b709ec7cecaf: 0
     - Vector1_ae41beeefded4b92a2e5c116c3e13764: 22
+    - Vector1_afd016a8c47a40029274193953a290d6: 0.8
+    - Vector1_c67fed37cc28479d990f3a506dd1e7a4: 0.5
+    - _AlphaClip: 0
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
+    - _BillboardKwToggle: 0
+    - _BillboardShadowFade: 0.5
+    - _Blend: 0
+    - _BlendOp: 0
     - _BottomLine: -0.21
     - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
+    - _DecalMeshBiasType: 0
+    - _DecalMeshDepthBias: 0
+    - _DecalMeshViewBias: 0
+    - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DirectIntensityOutline: 1
+    - _DrawOrder: 0
     - _DstBlend: 0
     - _EmissionChannel: 4
+    - _EnvironmentReflections: 1
     - _FresnelMax: 1.5
     - _FresnelMin: 0
+    - _GlitterTurn: 0.02
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Height: 0
+    - _HueVariationKwToggle: 0
     - _IndirectIntensity: 1
     - _IndirectIntensityOutline: 0
     - _MatCapMaskChannel: 0
     - _MatCapType: 0
     - _Metallic: 0
     - _Mode: 0
+    - _NormalMapKwToggle: 0
     - _NormalsSource: 0
     - _NormalsUVType: 0
     - _OcclusionChannel: 0
@@ -153,7 +247,7 @@ Material:
     - _OutlineTextureType: 0
     - _OutlineWidth: 1
     - _Parallax: 0.02
-    - _QueueControl: -1
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _RampBands: 4
     - _RampBandsSmoothing: 0.1
@@ -166,6 +260,7 @@ Material:
     - _RampThreshold: 0.545
     - _RampThresholdOtherLights: 0.5
     - _RampType: 0
+    - _ReceiveShadows: 1
     - _ReceiveShadowsOff: 1
     - _ReflectionMapType: 0
     - _ReflectionSmoothness: 0.5
@@ -173,6 +268,7 @@ Material:
     - _RimMax: 1
     - _RimMin: 0.5
     - _RimStrength: 0.5
+    - _SampleGI: 0
     - _ShadowColorLightAtten: 1
     - _Shadow_HSV_H: 0
     - _Shadow_HSV_S: 0
@@ -190,11 +286,15 @@ Material:
     - _SpecularToonSmoothness: 0.05
     - _SpecularType: 0
     - _SrcBlend: 1
+    - _SubsurfaceIndirect: 0.25
+    - _SubsurfaceKwToggle: 0
+    - _Surface: 0
     - _TCP2_DISABLE_WRAPPED_LIGHT: 1
     - _TCP2_RAMPTEXT: 0
     - _TCP2_SPEC_TOON: 0
     - _TCP2_STYLIZED_FRESNEL: 0
     - _TopLine: 0.31
+    - _TwoSided: 2
     - _UVSec: 0
     - _UseAlphaTest: 0
     - _UseEmission: 0
@@ -210,23 +310,35 @@ Material:
     - _UseRimLightMask: 1
     - _UseShadowTexture: 0
     - _UseSpecular: 0
+    - _WindQuality: 0
+    - _WorkflowMode: 1
     - _ZWrite: 1
     - __dummy__: 0
     m_Colors:
     - Color_0f60851ad36a4bc4938ea63f593d2f7b: {r: 1, g: 0, b: 0, a: 1}
-    - Color_24487fd55d194ab1b10eadd74352e8f5: {r: 0, g: 0, b: 0, a: 0}
+    - Color_24487fd55d194ab1b10eadd74352e8f5: {r: 0.043137256, g: 0.043137256, b: 0.043137256, a: 0}
     - Color_28633efd51e740eab2f68debd3d157ad: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 1}
     - Color_6daa00ea88fc4382997ae8ebad37780e: {r: 0.990566, g: 0.1437292, b: 0, a: 1}
     - Color_9015a4c44f244fa389b72b2f3971f8ee: {r: 1, g: 0.94716984, b: 0.94716984, a: 1}
-    - Color_b4f48fcbdbf7448e8ed754e472758db7: {r: 1, g: 1, b: 1, a: 1}
+    - Color_9b19752f75e44fb0a47489986b684e48: {r: 0.1254902, g: 0.1254902, b: 23.96863, a: 1}
+    - Color_9ec243283b77411db3a2421423f5bebb: {r: 7.094339, g: 0.5019579, b: 0.5019579, a: 1}
+    - Color_b4f48fcbdbf7448e8ed754e472758db7: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
+    - Vector2_2120c1500b5e4259bffbb38336ffd50b: {r: 1, g: 1, b: 0, a: 0}
     - Vector2_3537689232f0427792252fd9548a70d1: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_4e3f1e7f11194658ad9dd347729faa75: {r: 2, g: 2, b: 0, a: 0}
+    - Vector2_9fc506d9f824436387c9a0d23057d6ef: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_c4a035b213c34794bcf65baf362c03e3: {r: 4, g: 2, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BelowBottomColor: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 0.89119446, b: 0.38113207, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 0.6039216, g: 0, b: 1, a: 0}
+    - _Color2: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GColor: {r: 0.5251912, g: 8.564653, b: 0.5251912, a: 1}
     - _GradientBottomColor: {r: 0, g: 1, b: 0, a: 0}
     - _GradientTopColor: {r: 1, g: 1, b: 1, a: 1}
     - _HColor: {r: 1, g: 0, b: 0, a: 1}
+    - _HueVariationColor: {r: 1, g: 0.5, b: 0, a: 0.1}
     - _MatCapColor: {r: 1, g: 1, b: 1, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _OverTopColor: {r: 1, g: 0, b: 0, a: 1}
@@ -235,4 +347,5 @@ Material:
     - _SColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _SpecularColor: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+    - _SubsurfaceColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
